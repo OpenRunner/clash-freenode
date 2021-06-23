@@ -3,6 +3,9 @@
 
 ## Clash订阅共享整理（不定时更新，来源互联网）
  https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yml
+ 
+ (备份)  
+ https://cdn.jsdelivr.net/gh/oslook/clash-freenodes@master/clash.yml
 
 ## 应用
 ### Clash 客户端
