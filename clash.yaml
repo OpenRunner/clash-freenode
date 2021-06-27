@@ -4,171 +4,325 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: oslook|🇺🇳①SS综合节点
-  password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-  port: 20060
-  server: ss.linn.ink
-  type: ss
-- alterId: 100
+- alterId: 64
   cipher: auto
-  name: oslook|🇺🇳①V2综合节点
-  port: 30070
-  server: v2.linn.ink
+  name: oslook|_11
+  port: 443
+  server: 18.157.179.71
   tls: false
   type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-- alterId: 100
+  uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842
+- alterId: 0
   cipher: auto
-  name: 🇯🇵 oslook|🇯🇵②V2->JP
-  port: 30070
-  server: 54.199.114.51
+  name: oslook|欧盟
+  port: 35497
+  server: 45.88.179.35
   tls: false
   type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
+  uuid: 085e6815-e476-411a-a9a6-4e5306a1b875
+- alterId: 8
+  cipher: auto
+  name: 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  port: 61535
+  server: c39s3.jamjams.net
+  tls: false
+  type: vmess
+  uuid: eacf6911-b896-42ba-8340-298083d7b2e4
+- alterId: 1
+  cipher: auto
+  name: 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  network: ws
+  port: 8080
+  server: egg.mooncloud.top
+  tls: false
+  type: vmess
+  uuid: 00a356fc-71c7-4837-85ef-66a074a39530
+  ws-headers:
+    Host: egg.mooncloud.top
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  port: 52001
+  server: cn1.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  port: 52004
+  server: cn2.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 oslook|🇭🇰HK_2647
+  port: 13250
+  server: 5.253.16.199
+  tls: false
+  type: vmess
+  uuid: fffcdf67-9fa5-4e14-936a-8ad5280c5c63
+- alterId: 16
+  cipher: auto
+  name: 🇯🇵 oslook|🇯🇵JP_2747
+  network: ws
+  port: 443
+  server: 139.162.73.226
+  tls: false
+  type: vmess
+  uuid: 5d2ff979-d1d1-30b6-9df8-1f89a31b1d5e
+  ws-headers:
+    Host: 139.162.73.226
+  ws-path: /nima
+- alterId: 1
+  cipher: auto
+  name: 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  port: 52000
+  server: kr1.direct.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  network: ws
+  port: 443
+  server: vpscloudrussia.yasuoa.xyz
+  tls: true
+  type: vmess
+  uuid: 0f771c23-808f-4850-b563-5f6edf22d476
+  ws-headers:
+    Host: vpscloudrussia.yasuoa.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  network: ws
+  port: 49999
+  server: us3.keaiyun.top
+  tls: false
+  type: vmess
+  uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a
+  ws-headers:
+    Host: www.baidu.com
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  network: ws
+  port: 443
+  server: vpscloudus.yasuoa.xyz
+  tls: true
+  type: vmess
+  uuid: e2c4c28f-d237-481d-b4b5-a0946472c13c
+  ws-headers:
+    Host: vpscloudus.yasuoa.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  network: ws
+  port: 47777
+  server: us1.keaiyun.top
+  tls: false
+  type: vmess
+  uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a
+  ws-headers:
+    Host: www.baidu.com
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 oslook|🇺🇸US_3900
+  port: 34820
+  server: 154.16.108.85
+  tls: false
+  type: vmess
+  uuid: 1cb0db86-04b2-4672-bf83-71125b274ba4
+- alterId: 16
+  cipher: auto
+  name: oslook|🏁ZZ_4035
+  network: ws
+  port: 443
+  server: 34.92.76.138
+  tls: false
+  type: vmess
+  uuid: 5d2ff979-d1d1-30b6-9df8-1f89a31b1d5e
+  ws-headers:
+    Host: 34.92.76.138
+  ws-path: /nima
 - alterId: 100
   cipher: auto
-  name: 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
+  name: oslook|🇺🇳②V2中转节点
   port: 30030
   server: cn.linn.ink
   tls: false
   type: vmess
   uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-- alterId: 100
+- alterId: 0
   cipher: auto
-  name: 🇯🇵 oslook|🇯🇵 JP_4875
-  port: 30070
-  server: v2.linn.ink
+  name: oslook|_198
+  network: ws
+  port: 80
+  server: 152.67.254.98
   tls: false
   type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-- alterId: 3
+  uuid: 6e1e7c27-1839-43d3-b65c-75e5d2c35867
+  ws-headers:
+    Host: 152.67.254.98
+  ws-path: /
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|美国T1[初级|x1]
-  network: ws
-  port: 443
-  server: speed.cloudflare.com
+  name: 🇨🇳 oslook|🇨🇳 CN_841
+  port: 52008
+  server: cn1.relay.iplc.pro
   tls: true
   type: vmess
-  uuid: f22a80af-a9c9-3360-841e-25610688f353
-  ws-headers:
-    Host: t-1.sb-cloud.cf
-  ws-path: /114515/iuuu
-- alterId: 64
-  cipher: auto
-  name: oslook|🇬🇧GB_320
-  port: 35374
-  server: 5.183.101.200
-  tls: false
-  type: vmess
-  uuid: 62836733-0014-4014-e0e3-908eea2f3063
-- alterId: 100
-  cipher: auto
-  name: 🇯🇵 oslook|🇯🇵JP_339
-  port: 30070
-  server: 54.199.114.51
-  tls: false
-  type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
+  name: 🇨🇳 oslook|🇨🇳 CN_842
+  port: 52002
+  server: cn1.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 oslook|🇨🇳 CN_843
+  port: 52000
+  server: hk1.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 oslook|🇨🇳 CN_844
   network: ws
-  port: 80
-  server: 115.231.187.1
+  port: 8000
+  server: 54.223.185.171
   tls: false
   type: vmess
-  uuid: 5d92ed62-e3b9-48e9-872c-201177fcc227
+  uuid: 4a0825d3-0f32-4fec-a7fd-ba851e36e091
   ws-headers:
-    Host: 005.cdn.8x.cx.hit.edu.cn
+    Host: 54.223.185.171
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
+  name: 🇨🇳 oslook|🇨🇳 CN_846
   network: ws
-  port: 80
-  server: 58.211.137.1
+  port: 8002
+  server: 54.223.185.171
   tls: false
   type: vmess
-  uuid: 5d92ed62-e3b9-48e9-872c-201177fcc227
+  uuid: 4a0825d3-0f32-4fec-a7fd-ba851e36e091
   ws-headers:
-    Host: 005.cdn.8x.cx.hit.edu.cn
+    Host: 54.223.185.171
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 oslook|🇨🇳 CN_859
+  name: 🇨🇳 oslook|🇨🇳 CN_847
   network: ws
-  port: 20049
-  server: cm-jm.smdynet.com
+  port: 8001
+  server: 54.223.185.171
   tls: false
   type: vmess
-  uuid: a26aa399-d112-436c-8e1e-6d87b3168b3c
+  uuid: 4a0825d3-0f32-4fec-a7fd-ba851e36e091
   ws-headers:
-    Host: cm-jm.smdynet.com
+    Host: 54.223.185.171
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 oslook|🇨🇳 CN_860
-  network: ws
-  port: 80
-  server: 112.25.91.1
-  tls: false
+  name: 🇨🇳 oslook|🇨🇳 CN_852
+  port: 52003
+  server: cn1.relay.iplc.pro
+  tls: true
   type: vmess
-  uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7
-  ws-headers:
-    Host: 001.cdn.8x.cx.hit.edu.cn
-  ws-path: /
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 oslook|🇨🇳 CN_853
+  port: 52007
+  server: cn1.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 oslook|🇨🇳 CN_863
+  port: 52001
+  server: cn2.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 oslook|🇨🇳 CN_864
+  port: 52003
+  server: cn2.relay.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  port: 47148
-  server: 5.183.179.94
+  name: 🇭🇰 oslook|🇭🇰 HK_2733
+  network: ws
+  port: 25512
+  server: hk.keaiyun.xyz
   tls: false
   type: vmess
-  uuid: 730cb94d-012a-4bfc-aa2a-1573f63e5905
-- alterId: 100
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2742
-  port: 30070
-  server: v2.linn.ink
-  tls: false
-  type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
+  uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a
+  ws-headers:
+    Host: www.baidu.com
+  ws-path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2743
-  port: 23333
-  server: vtwonet-hk-a.qjnodeip.xyz
+  name: 🇭🇰 oslook|🇭🇰 HK_2734
+  port: 56491
+  server: 5.253.16.216
   tls: false
   type: vmess
-  uuid: 55D1D690-B0C1-58CA-918B-8C4783AE88BD
+  uuid: d051ffee-ef3e-4c58-9616-176c90e6caf1
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2747
+  name: 🇭🇰 oslook|🇭🇰 HK_2735
+  port: 52000
+  server: hk3.direct.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 oslook|🇭🇰 HK_2736
+  port: 52000
+  server: auto.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 oslook|🇭🇰 HK_2737
   network: ws
-  port: 80
-  server: hk7.xyttk.vip
+  port: 25513
+  server: hk.keaiyun.xyz
   tls: false
   type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
+  uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a
   ws-headers:
-    Host: hk7.xyttk.vip
-  ws-path: /
+    Host: www.baidu.com
+  ws-path: /v2ray
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2748
-  network: ws
-  port: 80
-  server: hk01.xyttk.vip
-  tls: false
+  name: 🇭🇰 oslook|🇭🇰 HK_2739
+  port: 52000
+  server: hk4.direct.iplc.pro
+  tls: true
   type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
-  ws-headers:
-    Host: hk01.xyttk.vip
-  ws-path: /
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2749
+  name: 🇭🇰 oslook|🇭🇰 HK_2741
   network: ws
   port: 80
   server: 52.175.57.175
@@ -178,177 +332,137 @@ proxies:
   ws-headers:
     Host: 52.175.57.175
   ws-path: /
-- alterId: 1
-  cipher: auto
-  name: oslook|🇮🇳 IN_3082
-  network: ws
-  port: 1051
-  server: ind01.xqkj.cloud
-  tls: false
-  type: vmess
-  uuid: b5bc488d-f540-4588-9cad-2b9f720350dd
-  ws-headers:
-    Host: ind01.xqkj.cloud
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 oslook|🇯🇵 JP_3375
-  network: ws
-  port: 49663
-  server: 54.238.207.70
+  name: 🇭🇰 oslook|🇭🇰 HK_2743
+  port: 23333
+  server: vtwonet-hk-a.qjnodeip.xyz
   tls: false
   type: vmess
-  uuid: 143ee500-5826-43ec-bc14-b026bb37665f
-  ws-headers:
-    Host: 54.238.207.70
-  ws-path: /
-- alterId: 1
+  uuid: 55D1D690-B0C1-58CA-918B-8C4783AE88BD
+- alterId: 0
   cipher: auto
-  name: 🇯🇵 oslook|🇯🇵 JP_3409
+  name: 🇭🇰 oslook|🇭🇰 HK_2744
   network: ws
-  port: 80
-  server: jp01.xyttk.vip
+  port: 25510
+  server: hk.keaiyun.xyz
   tls: false
   type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
+  uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a
   ws-headers:
-    Host: pull.free.video.10010.com
-  ws-path: /
-- alterId: 100
-  cipher: auto
-  name: 🇯🇵 oslook|🇯🇵 JP_3415
-  port: 30070
-  server: 54.199.114.51
-  tls: false
-  type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-- alterId: 1
-  cipher: auto
-  name: 🇰🇷 oslook|🇰🇷 KR_3512
-  network: ws
-  port: 8888
-  server: 54.180.96.67
-  tls: false
-  type: vmess
-  uuid: 22d4e1ae-7eba-4838-aa96-0a971618daf7
-  ws-headers:
-    Host: 54.180.96.67
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇷🇺 oslook|🇷🇺 RU_5043
-  network: ws
-  port: 30500
-  server: ussy.tnty.xyz
-  tls: false
-  type: vmess
-  uuid: 615d36d4-8ca9-3d4b-9fde-33fca7d24c09
-  ws-headers:
-    Host: ussy.tnty.xyz
+    Host: www.baidu.com
   ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 oslook|🇭🇰 HK_2745
+  port: 52000
+  server: hk2.direct.iplc.pro
+  tls: true
+  type: vmess
+  uuid: 2d1b2ec6-bd24-4bb8-b15e-f2813929d4f4
+- alterId: 16
+  cipher: auto
+  name: 🇯🇵 oslook|🇯🇵 JP_3353
+  network: ws
+  port: 443
+  server: 139.162.81.159
+  tls: false
+  type: vmess
+  uuid: 5d2ff979-d1d1-30b6-9df8-1f89a31b1d5e
+  ws-headers:
+    Host: 139.162.81.159
+  ws-path: /nima
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 oslook|🇹🇼 TW_5331
-  port: 10086
-  server: vtwonet-tw-a.qjnodeip.xyz
-  tls: false
+  name: 🇯🇵 oslook|🇯🇵 JP_3425
+  port: 443
+  server: ln27991855.setunnel.com
+  tls: true
   type: vmess
-  uuid: 4C179355-ECF8-42E0-C6BA-3BDFED011ACD
-- alterId: 128
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7399
-  network: ws
-  port: 39002
-  server: 144.34.248.51
-  tls: false
-  type: vmess
-  uuid: 7779c431-9c96-4f2a-af9b-5688626ab6a3
-  ws-headers:
-    Host: 144.34.248.51
-  ws-path: /v2
+  uuid: ca9d5444-0bfa-5261-a441-c5c4c4108c59
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7402
-  network: ws
-  port: 80
-  server: 15.197.189.150
+  name: 🇯🇵 oslook|🇯🇵 JP_3429
+  port: 49854
+  server: auto.freev2.top
   tls: false
   type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: en.tgchannels.org/channel/vpnpool
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7410
-  network: ws
-  port: 80
-  server: 99.83.187.163
-  tls: false
-  type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: en.tgchannels.org/channel/vpnpool
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7413
-  network: ws
-  port: 80
-  server: 75.2.68.102
-  tls: false
-  type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: en.tgchannels.org/channel/vpnpool
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  network: ws
-  port: 80
-  server: euserv6p.ezddns.tk
-  tls: false
-  type: vmess
-  uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04
-  ws-headers:
-    Host: euserv6p.ezddns.tk
-  ws-path: /video
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7421
-  network: ws
-  port: 80
-  server: 15.197.162.155
-  tls: false
-  type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: en.tgchannels.org/channel/vpnpool
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7422
-  network: ws
-  port: 80
-  server: 13.248.238.170
-  tls: false
-  type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: en.tgchannels.org/channel/vpnpool
-  ws-path: /
+  uuid: 3693b182-c9ed-4d48-8965-03406eb18a1f
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  port: 31812
-  server: 3.36.76.192
+  name: 🇳🇱 oslook|🇳🇱 NL_4030
+  network: ws
+  port: 443
+  server: 46.182.107.151
+  tls: true
+  type: vmess
+  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
+  ws-headers:
+    Host: www.06321530.xyz
+  ws-path: /footers
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 oslook|🇳🇱 NL_4031
+  network: ws
+  port: 443
+  server: 154.84.1.207
+  tls: true
+  type: vmess
+  uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947
+  ws-headers:
+    Host: www.49696760.xyz
+  ws-path: /footers
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 oslook|🇳🇱 NL_4034
+  network: ws
+  port: 443
+  server: 46.182.107.156
+  tls: true
+  type: vmess
+  uuid: 20b30916-e203-412e-8ec0-900f3acd3588
+  ws-headers:
+    Host: www.25936911.xyz
+  ws-path: /footers
+- alterId: 1
+  cipher: auto
+  name: 🇺🇸 oslook|🇺🇸 US_7393
+  network: ws
+  port: 80
+  server: 4.blackml.com
   tls: false
   type: vmess
-  uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49
+  uuid: 12f304f6-0e13-4214-9754-d0b1fcbbec54
+  ws-headers:
+    Host: gd.189.cn
+  ws-path: /TS/recharge/tzUrl.html
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 oslook|🇺🇸 US_7394
+  network: ws
+  port: 443
+  server: 23.225.153.26
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: www.91852313.xyz
+  ws-path: /footers
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 oslook|🇺🇸 US_7396
+  network: ws
+  port: 443
+  server: 23.225.153.27
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: www.91852313.xyz
+  ws-path: /footers
 - alterId: 10
   cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7430
+  name: 🇺🇸 oslook|🇺🇸 US_7416
   network: ws
   port: 13723
   server: usa5b-node.3366test.com
@@ -360,165 +474,201 @@ proxies:
   ws-path: ray
 - alterId: 64
   cipher: auto
+  name: 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  network: ws
+  port: 443
+  server: 104.18.6.138
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
+- alterId: 8
+  cipher: auto
+  name: 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
+  port: 61535
+  server: c39s3.jamjams.net
+  tls: false
+  type: vmess
+  uuid: eacf6911-b896-42ba-8340-298083d7b2e4
+- alterId: 1
+  cipher: auto
   name: 🇺🇸 oslook|🇺🇸 US_7433
   network: ws
   port: 443
-  server: 198.2.200.220
+  server: 104.19.42.20
   tls: true
   type: vmess
-  uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
+  uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457
   ws-headers:
-    Host: www.48168443.xyz
-  ws-path: /path/310910211916
-- alterId: 64
+    Host: c.1808.cf
+  ws-path: /xrayvws
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7445
+  name: 🇺🇸 oslook|🇺🇸 US_7434
   network: ws
   port: 443
-  server: 96.43.91.59
+  server: 104.19.79.202
   tls: true
   type: vmess
-  uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
+  uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457
   ws-headers:
-    Host: www.45218443.xyz
-  ws-path: /path/310910211916
+    Host: c.1808.cf
+  ws-path: /xrayvws
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7446
+  name: 🇺🇸 oslook|🇺🇸 US_7436
   network: ws
-  port: 1045
-  server: us15.xqkj.cloud
-  tls: false
+  port: 443
+  server: 104.19.19.253
+  tls: true
   type: vmess
-  uuid: b5bc488d-f540-4588-9cad-2b9f720350dd
+  uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457
   ws-headers:
-    Host: us15.xqkj.cloud
-  ws-path: /
+    Host: c.1808.cf
+  ws-path: /xrayvws
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 oslook|日本01
+  name: 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
   network: ws
-  port: 80
-  server: jp01.xyttk.vip
+  port: 8080
+  server: egg.mooncloud.top
   tls: false
   type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
+  uuid: 00a356fc-71c7-4837-85ef-66a074a39530
   ws-headers:
-    Host: pull.free.video.10010.com
+    Host: m.t.17186.cn
   ws-path: /
-- alterId: 1
+- alterId: 16
   cipher: auto
-  name: 🇭🇰 oslook|香港01
+  name: 🇺🇸 oslook|🇺🇸 US_7454
   network: ws
-  port: 80
-  server: hk01.xyttk.vip
-  tls: false
+  port: 443
+  server: 104.26.14.221
+  tls: true
   type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
+  uuid: 5ed1ad68-6337-4fdb-a34b-f57e0b96ddbc
   ws-headers:
-    Host: hk01.xyttk.vip
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|vip-香港5
-  network: ws
-  port: 80
-  server: hk7.xyttk.vip
-  tls: false
-  type: vmess
-  uuid: b686569e-726c-42df-9a34-9776679a8987
-  ws-headers:
-    Host: hk7.xyttk.vip
-  ws-path: /
+    Host: video.fuck-gfw.eu.org
+  ws-path: /phpmyadmin
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -526,189 +676,243 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -724,46 +928,60 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - oslook|🇺🇳①SS综合节点
-  - oslook|🇺🇳①V2综合节点
-  - 🇯🇵 oslook|🇯🇵②V2->JP
-  - 🇨🇳 oslook|🇨🇳 CN_4787 | 8.31Mb
-  - 🇯🇵 oslook|🇯🇵 JP_4875
-  - 🇺🇸 oslook|美国T1[初级|x1]
-  - oslook|🇬🇧GB_320
-  - 🇯🇵 oslook|🇯🇵JP_339
-  - 🇺🇸 oslook|【中转】USA/美国 A - 宁波电信
-  - 🇺🇸 oslook|【中转】USA/美国 A - 苏州电信
-  - 🇨🇳 oslook|🇨🇳 CN_859
-  - 🇨🇳 oslook|🇨🇳 CN_860
-  - 🇩🇪 oslook|🇩🇪 DE_1258 |34.67Mb
-  - 🇭🇰 oslook|🇭🇰 HK_2742
+  - oslook|_11
+  - oslook|欧盟
+  - 🇺🇸 oslook|Relay_-🇺🇸US_942 |18.33Mb
+  - 🇺🇸 oslook|Relay_-🇺🇸US_1766
+  - 🇭🇰 oslook|Relay_🇨🇳CN-🇭🇰HK_2009
+  - 🇷🇺 oslook|Relay_🇨🇳CN-🇷🇺RU_2024
+  - 🇭🇰 oslook|🇭🇰HK_2647
+  - 🇯🇵 oslook|🇯🇵JP_2747
+  - 🇰🇷 oslook|Relay_🇰🇷KR-🇰🇷KR_2790
+  - 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3286
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3891
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3892
+  - 🇺🇸 oslook|Relay_🇺🇸US-🇺🇸US_3896
+  - 🇺🇸 oslook|🇺🇸US_3900
+  - oslook|🏁ZZ_4035
+  - oslook|🇺🇳②V2中转节点
+  - oslook|_198
+  - 🇨🇳 oslook|🇨🇳 CN_841
+  - 🇨🇳 oslook|🇨🇳 CN_842
+  - 🇨🇳 oslook|🇨🇳 CN_843
+  - 🇨🇳 oslook|🇨🇳 CN_844
+  - 🇨🇳 oslook|🇨🇳 CN_846
+  - 🇨🇳 oslook|🇨🇳 CN_847
+  - 🇨🇳 oslook|🇨🇳 CN_852
+  - 🇨🇳 oslook|🇨🇳 CN_853
+  - 🇨🇳 oslook|🇨🇳 CN_863
+  - 🇨🇳 oslook|🇨🇳 CN_864
+  - 🇭🇰 oslook|🇭🇰 HK_2733
+  - 🇭🇰 oslook|🇭🇰 HK_2734
+  - 🇭🇰 oslook|🇭🇰 HK_2735
+  - 🇭🇰 oslook|🇭🇰 HK_2736
+  - 🇭🇰 oslook|🇭🇰 HK_2737
+  - 🇭🇰 oslook|🇭🇰 HK_2739
+  - 🇭🇰 oslook|🇭🇰 HK_2741
   - 🇭🇰 oslook|🇭🇰 HK_2743
-  - 🇭🇰 oslook|🇭🇰 HK_2747
-  - 🇭🇰 oslook|🇭🇰 HK_2748
-  - 🇭🇰 oslook|🇭🇰 HK_2749
-  - oslook|🇮🇳 IN_3082
-  - 🇯🇵 oslook|🇯🇵 JP_3375
-  - 🇯🇵 oslook|🇯🇵 JP_3409
-  - 🇯🇵 oslook|🇯🇵 JP_3415
-  - 🇰🇷 oslook|🇰🇷 KR_3512
-  - 🇷🇺 oslook|🇷🇺 RU_5043
-  - 🇨🇳 oslook|🇹🇼 TW_5331
-  - 🇺🇸 oslook|🇺🇸 US_7399
-  - 🇺🇸 oslook|🇺🇸 US_7402
-  - 🇺🇸 oslook|🇺🇸 US_7410
-  - 🇺🇸 oslook|🇺🇸 US_7413
-  - 🇺🇸 oslook|🇺🇸 US_7419 |12.03Mb
-  - 🇺🇸 oslook|🇺🇸 US_7421
-  - 🇺🇸 oslook|🇺🇸 US_7422
-  - 🇺🇸 oslook|🇺🇸 US_7424 |29.75Mb
-  - 🇺🇸 oslook|🇺🇸 US_7430
+  - 🇭🇰 oslook|🇭🇰 HK_2744
+  - 🇭🇰 oslook|🇭🇰 HK_2745
+  - 🇯🇵 oslook|🇯🇵 JP_3353
+  - 🇯🇵 oslook|🇯🇵 JP_3425
+  - 🇯🇵 oslook|🇯🇵 JP_3429
+  - 🇳🇱 oslook|🇳🇱 NL_4030
+  - 🇳🇱 oslook|🇳🇱 NL_4031
+  - 🇳🇱 oslook|🇳🇱 NL_4034
+  - 🇺🇸 oslook|🇺🇸 US_7393
+  - 🇺🇸 oslook|🇺🇸 US_7394
+  - 🇺🇸 oslook|🇺🇸 US_7396
+  - 🇺🇸 oslook|🇺🇸 US_7416
+  - 🇺🇸 oslook|🇺🇸 US_7419 |24.55Mb
+  - 🇺🇸 oslook|🇺🇸 US_7422 |61.47Mb
   - 🇺🇸 oslook|🇺🇸 US_7433
-  - 🇺🇸 oslook|🇺🇸 US_7445
-  - 🇺🇸 oslook|🇺🇸 US_7446
-  - 🇯🇵 oslook|日本01
-  - 🇭🇰 oslook|香港01
-  - 🇭🇰 oslook|vip-香港5
+  - 🇺🇸 oslook|🇺🇸 US_7434
+  - 🇺🇸 oslook|🇺🇸 US_7436
+  - 🇺🇸 oslook|🇺🇸 US_7453 |58.65Mb
+  - 🇺🇸 oslook|🇺🇸 US_7454
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
