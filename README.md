@@ -2,10 +2,10 @@
 | Clash 订阅地址 | 免费共享 | 定期更新 | 
 
 ## Clash订阅共享整理（不定时更新，来源互联网）
- https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yml
+ https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
  
  (备份)  
- https://cdn.jsdelivr.net/gh/oslook/clash-freenodes@master/clash.yml
+ https://cdn.jsdelivr.net/gh/oslook/clash-freenodes@master/clash.yaml
 
 ## 应用
 ### Clash 客户端
