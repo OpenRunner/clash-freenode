@@ -1,986 +1,537 @@
-allow-lan: true
-external-controller: :9090
-log-level: info
-mode: Rule
 port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
 proxies:
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 oslook|【直连】SIN/狮城 B - 3
-  network: ws
-  port: 80
-  server: 038.SG.AP.POP.BIGAIRPORT.NET
-  tls: false
+- name: https://git.io/v9999 莫斯科
   type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
+  server: 46.17.43.179
+  port: '31231'
+  uuid: 9c10617c-464d-4bb1-8b97-bbdec6ebc7d1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: quic
+  ws-path: e25d3f2d-ed4b-486d-9cde-31322a0af1fc
   ws-headers:
-    Host: 038.SG.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
+    Host: chacha20-poly1305
+- name: https://git.io/v9999 美国  6
+  type: vmess
+  server: 135.125.207.34
+  port: '80'
+  uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666
+  alterId: '64'
   cipher: auto
-  name: 🇭🇰 oslook|【直连】HKG/香港 A - 5
+  ucp: true
   network: ws
-  port: 80
-  server: 005.HK.AP.POP.BIGAIRPORT.NET
-  tls: false
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
+  ws-path: /sshocean
   ws-headers:
-    Host: 005.HK.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 oslook|【直连】SIN/狮城 A - 5
-  network: ws
-  port: 443
-  server: 035.SG.AP.POP.BIGAIRPORT.NET
-  tls: true
+    Host: ''
+- name: https://git.io/v9999 洛杉矶
   type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
+  server: 45.32.91.46
+  port: '44072'
+  uuid: 7cf2df44-d11f-4ab7-b5bb-4439d4c80102
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
   ws-headers:
-    Host: 035.SG.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: oslook|Relay_ |46.09Mb
-  network: ws
-  port: 443
-  server: 172.64.67.46
-  tls: true
-  type: vmess
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  ws-headers:
-    Host: icy-band-fd02.zjjcool.workers.dev
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇷🇺 oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  network: ws
-  port: 443
-  server: egbl.tnty.xyz
-  tls: false
-  type: vmess
-  uuid: 615d36d4-8ca9-3d4b-9fde-33fca7d24c09
-  ws-headers:
-    Host: egbl.tnty.xyz
-  ws-path: /v2ray
-- alterId: 1
-  cipher: auto
-  name: 🇰🇷 oslook|🇰🇷 KR_3572
-  network: ws
-  port: 8888
-  server: 54.180.96.67
-  tls: false
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-headers:
-    Host: 54.180.96.67
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2812
-  network: ws
-  port: 21888
-  server: 124.156.153.15
-  tls: false
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-headers:
-    Host: 124.156.153.15
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 oslook|🇨🇳CN_2363
-  network: ws
-  port: 10216
-  server: NINGXIA.BGP.SPEEDUP.233yun.in
-  tls: false
-  type: vmess
-  uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4
-  ws-headers:
-    Host: 233yun.microsoft.com
-  ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant
-- alterId: 1
-  cipher: auto
-  name: oslook|🇬🇧 GB_2726
-  network: ws
-  port: 8888
-  server: 46.101.28.98
-  tls: false
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-headers:
-    Host: 46.101.28.98
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 oslook|【直连】SIN/狮城 A - 2
-  network: ws
-  port: 443
-  server: 032.SG.AP.POP.BIGAIRPORT.NET
-  tls: true
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 032.SG.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7576
-  network: ws
-  port: 443
-  server: ban4.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8
-  ws-headers:
-    Host: ban4.feiclouddd.me
-  ws-path: /sdafasfsa
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2815
-  network: ws
-  port: 80
-  server: 207.46.141.206
-  tls: false
-  type: vmess
-  uuid: 7edb019c-621f-4914-a0f7-719afac084f1
-  ws-headers:
-    Host: 207.46.141.206
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7575
-  network: ws
-  port: 443
-  server: nn-ssr4.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
-  ws-headers:
-    Host: nn-ssr4.feiclouddd.me
-  ws-path: /sadfasdf
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  network: ws
-  port: 80
-  server: 001.HK.AP.POP.BIGAIRPORT.NET
-  tls: false
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 001.HK.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2810
-  network: ws
-  port: 20008
-  server: azhk2.pengui.tools
-  tls: false
-  type: vmess
-  uuid: 7edb019c-621f-4914-a0f7-719afac084f1
-  ws-headers:
-    Host: azhk2.pengui.tools
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_63
-  network: ws
-  port: 443
-  server: 104.19.7.84
-  tls: true
-  type: vmess
-  uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
-  ws-headers:
-    Host: free.frli.xyz
-  ws-path: /y475
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰香港-01
-  port: 27004
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2811
-  network: ws
-  port: 10089
-  server: azhk2.pengui.tools
-  tls: false
-  type: vmess
-  uuid: 7edb019c-621f-4914-a0f7-719afac084f1
-  ws-headers:
-    Host: azhk2.pengui.tools
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰香港-02 解锁
-  port: 27005
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7574
-  network: ws
-  port: 443
-  server: qq13.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 oslook|【直连】NRT/东京 A - 4
-  network: ws
-  port: 443
-  server: 024.JP.AP.POP.BIGAIRPORT.NET
-  tls: true
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 024.JP.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2816
-  network: ws
-  port: 10092
-  server: azhk2.pengui.tools
-  tls: false
-  type: vmess
-  uuid: 7edb019c-621f-4914-a0f7-719afac084f1
-  ws-headers:
-    Host: azhk2.pengui.tools
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 oslook|🇸🇬新加坡-01
-  port: 27006
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  network: ws
-  port: 443
-  server: 65.52.172.39
-  tls: true
-  type: vmess
-  uuid: eeabb1b3-ddb9-4b54-812f-09a2eb3822e0
-  ws-headers:
-    Host: hkv2-1.ddns.tjiasu.xyz
-  ws-path: /api/shop
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 oslook|🇸🇬 SG_5319
-  network: ws
-  port: 80
-  server: 104.215.249.144
-  tls: false
-  type: vmess
-  uuid: 7edb019c-621f-4914-a0f7-719afac084f1
-  ws-headers:
-    Host: 104.215.249.144
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2813
-  network: ws
-  port: 21888
-  server: v2ray.huarenlife.top
-  tls: false
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-headers:
-    Host: v2ray.huarenlife.top
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_66
-  network: ws
-  port: 443
-  server: 104.25.52.187
-  tls: true
-  type: vmess
-  uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
-  ws-headers:
-    Host: free.frli.xyz
-  ws-path: /y475
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国㊴直连
-  password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9
-  port: 18332
-  server: 154.17.2.211
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 oslook|🇯🇵日本-02
-  port: 27002
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|King-美国㉚直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18333
-  server: 154.17.2.135
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国㊷直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18331
-  server: 154.17.5.133
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国㊵直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18333
-  server: 154.17.2.217
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 oslook|🇯🇵日本-01
-  port: 27001
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 oslook|【直连】NRT/东京 A - 2
-  network: ws
-  port: 443
-  server: 022.JP.AP.POP.BIGAIRPORT.NET
-  tls: true
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 022.JP.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|🇭🇰 HK_2817
-  network: ws
-  port: 21888
-  server: huarenlife.top
-  tls: false
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-headers:
-    Host: huarenlife.top
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国㉗直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18334
-  server: 154.17.2.121
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 oslook|🇯🇵日本-03
-  network: ws
-  port: 27003
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-  ws-headers:
-    Host: pull.free.video.10010.com
-  ws-path: /superstar
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_70
-  network: ws
-  port: 443
-  server: 104.19.110.34
-  tls: true
-  type: vmess
-  uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
-  ws-headers:
-    Host: free.frli.xyz
-  ws-path: /y475
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺 oslook|🇷🇺RU_96 |33.63Mb
-  port: 38066
-  server: 46.17.44.190
-  tls: false
-  type: vmess
-  uuid: 66fdc15a-fb1b-403a-8574-d98fbd702602
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 oslook|🇰🇷韩国-01
-  port: 27011
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国㉒直连
-  password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj
-  port: 18335
-  server: 154.17.2.109
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇰🇷 oslook|🇰🇷 KR_3569
-  network: ws
-  port: 4785
-  server: aga2.pomu.xyz
-  tls: true
-  type: vmess
-  uuid: a67fcd9f-4a95-3617-8e97-7d447af236e4
-  ws-headers:
-    Host: aga2.pomu.xyz
-  ws-path: /popo
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 oslook|美国⑮直连
-  password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx
-  port: 18333
-  server: 154.17.2.54
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 oslook|韩国②直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18333
-  server: 193.110.201.185
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 oslook|【直连】NRT/东京 B - 2
-  network: ws
-  port: 80
-  server: 027.JP.AP.POP.BIGAIRPORT.NET
-  tls: false
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 027.JP.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸 US_7609
-  network: ws
-  port: 443
-  server: euserv4p.ezddns.tk
-  tls: true
-  type: vmess
-  uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288
-  ws-headers:
-    Host: euserv4p.ezddns.tk
-  ws-path: /stream
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸美国-02
-  port: 27009
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 oslook|🇺🇸美国-01
-  port: 27008
-  server: superstar.srayx.xyz
-  tls: false
-  type: vmess
-  uuid: 0588ca87-26d9-4a95-a8d4-cb14dbae515d
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 oslook|【直连】SIN/狮城 B - 5
-  network: ws
-  port: 80
-  server: 040.SG.AP.POP.BIGAIRPORT.NET
-  tls: false
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 040.SG.AP.POP.BIGAIRPORT.NET
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 oslook|【直连】HKG/香港 A - 6
-  network: ws
-  port: 80
-  server: 006.HK.AP.POP.BIGAIRPORT.NET
-  tls: false
-  type: vmess
-  uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351
-  ws-headers:
-    Host: 006.HK.AP.POP.BIGAIRPORT.NET
-  ws-path: /
+    Host: ''
 proxy-groups:
 - name: 🚀 节点选择
+  type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
-- interval: 300
-  name: ♻️ 自动选择
-  proxies:
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  tolerance: 50
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
+- name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 🌍 国外媒体
+  type: select
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 📲 电报信息
+  type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: Ⓜ️ 微软服务
+  type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 🍎 苹果服务
+  type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 📢 谷歌FCM
+  type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 🎯 全球直连
+  type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  type: select
 - name: 🛑 全球拦截
+  type: select
   proxies:
   - REJECT
   - DIRECT
-  type: select
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 🍃 应用净化
+  type: select
   proxies:
   - REJECT
   - DIRECT
-  type: select
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 - name: 🐟 漏网之鱼
+  type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 3
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 5
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 5
-  - '[07-04]|oslook|Relay_ |46.09Mb'
-  - 🇷🇺 [07-04]|oslook|Relay_🇷🇺RU-🇷🇺RU_3084
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3572
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2812
-  - 🇨🇳 [07-04]|oslook|🇨🇳CN_2363
-  - '[07-04]|oslook|🇬🇧 GB_2726'
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 A - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7576
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2815
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7575
-  - 🇭🇰 [07-04]|oslook|Relay_🇺🇸US-🇭🇰HK_3701
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2810
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_63
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-01
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2811
-  - 🇭🇰 [07-04]|oslook|🇭🇰香港-02 解锁
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7574
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 4
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2816
-  - 🇸🇬 [07-04]|oslook|🇸🇬新加坡-01
-  - 🇭🇰 [07-04]|oslook|Relay_🇭🇰HK-🇭🇰HK_2493
-  - 🇸🇬 [07-04]|oslook|🇸🇬 SG_5319
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2813
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_66
-  - 🇺🇸 [07-04]|oslook|美国㊴直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-02
-  - 🇺🇸 [07-04]|oslook|King-美国㉚直连
-  - 🇺🇸 [07-04]|oslook|美国㊷直连
-  - 🇺🇸 [07-04]|oslook|美国㊵直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-01
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 A - 2
-  - 🇭🇰 [07-04]|oslook|🇭🇰 HK_2817
-  - 🇺🇸 [07-04]|oslook|美国㉗直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵日本-03
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_70
-  - 🇷🇺 [07-04]|oslook|🇷🇺RU_96 |33.63Mb
-  - 🇰🇷 [07-04]|oslook|🇰🇷韩国-01
-  - 🇺🇸 [07-04]|oslook|美国㉒直连
-  - 🇰🇷 [07-04]|oslook|🇰🇷 KR_3569
-  - 🇺🇸 [07-04]|oslook|美国⑮直连
-  - 🇰🇷 [07-04]|oslook|韩国②直连
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 2
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7609
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-02
-  - 🇺🇸 [07-04]|oslook|🇺🇸美国-01
-  - 🇸🇬 [07-04]|oslook|【直连】SIN/狮城 B - 5
-  - 🇭🇰 [07-04]|oslook|【直连】HKG/香港 A - 6
-  type: select
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+  - https://www.mattkaydiary.com|Relay_ |46.09Mb
+  - 🇷🇺 https://www.mattkaydiary.com|Relay_🇷🇺RU-🇷🇺RU_3084
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3572
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2812
+  - 🇨🇳 https://www.mattkaydiary.com|🇨🇳CN_2363
+  - https://www.mattkaydiary.com|🇬🇧 GB_2726
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7576
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2815
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7575
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇺🇸US-🇭🇰HK_3701
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2810
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_63
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-01
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2811
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰香港-02 解锁
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7574
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 4
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2816
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬新加坡-01
+  - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_2493
+  - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 SG_5319
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2813
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_66
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-02
+  - 🇺🇸 https://www.mattkaydiary.com|King-美国㉚直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
+  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-01
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 A - 2
+  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2817
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
+  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵日本-03
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_70
+  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_96 |33.63Mb
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷韩国-01
+  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
+  - 🇰🇷 https://www.mattkaydiary.com|🇰🇷 KR_3569
+  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
+  - 🇰🇷 https://www.mattkaydiary.com|韩国②直连
+  - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 2
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7609
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-02
+  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸美国-01
+  - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+  - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 6
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 美国  6
+  - https://git.io/v9999 洛杉矶
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -4351,6 +3902,3 @@ rules:
 - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-- DOMAIN-SUFFIX,dyndns.com,🎯 全球直连
-- DOMAIN-SUFFIX,dyndns.org,🎯 全球直连
-socks-port: 7891
