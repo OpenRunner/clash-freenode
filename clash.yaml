@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  name: 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
   network: ws
   port: 30504
   server: 116.149.51.40
@@ -18,7 +18,7 @@ proxies:
   ws-path: /v2ray
 - alterId: 233
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
   network: ws
   port: 80
   server: free-russian01-cdn.xiaohouzi.club
@@ -30,7 +30,7 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: '[07-04]|oslook|🏁 ZZ_8119'
+  name: '[07-05]|oslook|🏁 ZZ_8119'
   network: ws
   port: 80
   server: cfcn.9sep.org
@@ -42,7 +42,7 @@ proxies:
   ws-path: /w421x2bx2za
 - alterId: 2
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
+  name: 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
   network: ws
   port: 22334
   server: 116.149.51.40
@@ -54,7 +54,7 @@ proxies:
   ws-path: /v2ray
 - alterId: 2
   cipher: auto
-  name: 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  name: 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
   network: ws
   port: 443
   server: 104.16.1.4
@@ -66,7 +66,7 @@ proxies:
   ws-path: /0wejcsges
 - alterId: 16
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
   network: ws
   port: 443
   server: 16.162.55.4
@@ -78,7 +78,7 @@ proxies:
   ws-path: /nima
 - alterId: 64
   cipher: auto
-  name: '[07-04]|oslook|Relay_ | 9.38Mb'
+  name: '[07-05]|oslook|Relay_ | 9.38Mb'
   network: ws
   port: 443
   server: 104.21.48.161
@@ -90,7 +90,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
   network: ws
   port: 443
   server: 23.224.30.36
@@ -102,7 +102,7 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
+  name: 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
   network: ws
   port: 80
   server: 028.JP.AP.POP.BIGAIRPORT.NET
@@ -114,7 +114,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: '[07-04]|oslook|🇬🇧 GB_2700'
+  name: '[07-05]|oslook|🇬🇧 GB_2700'
   network: ws
   port: 8888
   server: 46.101.28.98
@@ -126,7 +126,7 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
+  name: 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
   network: ws
   port: 80
   server: 113.207.102.1
@@ -138,7 +138,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
   network: ws
   port: 80
   server: 3.33.135.147
@@ -150,7 +150,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
+  name: 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
   network: ws
   port: 40007
   server: qwerjm.moox.icu
@@ -161,20 +161,20 @@ proxies:
     Host: qwerjm.moox.icu
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国㉔直连
+  name: 🇺🇸 [07-05]|oslook|美国㉔直连
   password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB
   port: 18335
   server: 154.17.2.112
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国⑳直连
+  name: 🇺🇸 [07-05]|oslook|美国⑳直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.95
   type: ss
 - alterId: 16
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸US_3745
+  name: 🇺🇸 [07-05]|oslook|🇺🇸US_3745
   network: ws
   port: 443
   server: 16.162.55.4
@@ -185,14 +185,14 @@ proxies:
     Host: 16.162.55.4
   ws-path: /nima
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国㉟直连
+  name: 🇺🇸 [07-05]|oslook|美国㉟直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.153
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  name: 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
   network: ws
   port: 443
   server: 104.18.6.138
@@ -204,7 +204,7 @@ proxies:
   ws-path: /
 - alterId: 3
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
+  name: 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -215,14 +215,14 @@ proxies:
     Host: t-1.sb-cloud.cf
   ws-path: /114515/iuuu
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国㉞直连
+  name: 🇺🇸 [07-05]|oslook|美国㉞直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.149
   type: ss
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  name: 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
   network: ws
   port: 34001
   server: qwerjm.moox.icu
@@ -233,14 +233,14 @@ proxies:
     Host: digjp.moox.icu
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国㊱直连
+  name: 🇺🇸 [07-05]|oslook|美国㊱直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18333
   server: 154.17.2.160
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
   network: ws
   port: 443
   server: ac2077.herokuapp.com
@@ -251,14 +251,14 @@ proxies:
     Host: ac2077.herokuapp.com
   ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-04]|oslook|美国③直连
+  name: 🇺🇸 [07-05]|oslook|美国③直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.1.251
   type: ss
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
+  name: 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
   network: ws
   port: 443
   server: 3.115.6.115
@@ -270,7 +270,7 @@ proxies:
   ws-path: /nima
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
+  name: 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
   network: ws
   port: 34002
   server: qwerjm.moox.icu
@@ -282,7 +282,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
+  name: 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
   network: ws
   port: 443
   server: 3.115.6.115
@@ -294,7 +294,7 @@ proxies:
   ws-path: /nima
 - alterId: 0
   cipher: auto
-  name: '[07-04]|oslook|_1744'
+  name: '[07-05]|oslook|_1744'
   port: 19303
   server: 85.117.234.184
   tls: false
@@ -302,7 +302,7 @@ proxies:
   uuid: c3806abf-afaf-4ed1-8f7e-41a7ecdbb4e3
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_234
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_234
   network: ws
   port: 443
   server: 104.18.7.138
@@ -314,7 +314,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
+  name: 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
   network: ws
   port: 443
   server: 104.19.45.117
@@ -326,7 +326,7 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
+  name: 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
   network: ws
   port: 31004
   server: 120.240.47.76
@@ -338,7 +338,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
+  name: 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
   network: ws
   port: 31005
   server: 120.240.47.76
@@ -350,7 +350,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
+  name: 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
   network: ws
   port: 31003
   server: 120.240.47.76
@@ -362,7 +362,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
+  name: 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
   network: ws
   port: 31007
   server: 120.240.47.76
@@ -374,7 +374,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
+  name: 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
   network: ws
   port: 31000
   server: 120.240.47.76
@@ -386,7 +386,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
+  name: 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
   network: ws
   port: 31001
   server: 120.240.47.76
@@ -398,7 +398,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
+  name: 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
   network: ws
   port: 31002
   server: 120.240.47.76
@@ -410,7 +410,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
+  name: 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
   network: ws
   port: 31006
   server: 120.240.47.76
@@ -422,7 +422,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [07-04]|oslook|香港01 免流80节点
+  name: 🇭🇰 [07-05]|oslook|香港01 免流80节点
   network: ws
   port: 80
   server: 1.yyds123.com
@@ -434,7 +434,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [07-04]|oslook|香港02 免流80节点
+  name: 🇭🇰 [07-05]|oslook|香港02 免流80节点
   network: ws
   port: 80
   server: 2.yyds123.com
@@ -446,7 +446,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [07-04]|oslook|香港03 免流80节点
+  name: 🇭🇰 [07-05]|oslook|香港03 免流80节点
   network: ws
   port: 80
   server: 3.yyds123.com
@@ -458,7 +458,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [07-04]|oslook|香港04 免流80节点
+  name: 🇭🇰 [07-05]|oslook|香港04 免流80节点
   network: ws
   port: 80
   server: 4.yyds123.com
@@ -470,7 +470,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  name: 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   network: ws
   port: 80
   server: 5.yyds123.com
@@ -485,96 +485,96 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -582,205 +582,205 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -796,49 +796,49 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-04]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7578
-  - '[07-04]|oslook|🏁 ZZ_8119'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_893
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_484
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7547
-  - '[07-04]|oslook|Relay_ | 9.38Mb'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7570
-  - 🇯🇵 [07-04]|oslook|【直连】NRT/东京 B - 3
-  - '[07-04]|oslook|🇬🇧 GB_2700'
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_879
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7615
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_887
-  - 🇺🇸 [07-04]|oslook|美国㉔直连
-  - 🇺🇸 [07-04]|oslook|美国⑳直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸US_3745
-  - 🇺🇸 [07-04]|oslook|美国㉟直连
-  - 🇩🇪 [07-04]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
-  - 🇺🇸 [07-04]|oslook|美国T1[初级|x1]
-  - 🇺🇸 [07-04]|oslook|美国㉞直连
-  - 🇨🇳 [07-04]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
-  - 🇺🇸 [07-04]|oslook|美国㊱直连
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7559
-  - 🇺🇸 [07-04]|oslook|美国③直连
-  - 🇯🇵 [07-04]|oslook|🇯🇵JP_2630
-  - 🇨🇳 [07-04]|oslook|🇨🇳 CN_883
-  - 🇯🇵 [07-04]|oslook|🇯🇵 JP_3458
-  - '[07-04]|oslook|_1744'
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_234
-  - 🇺🇸 [07-04]|oslook|🇺🇸 US_7555
-  - 🇨🇳 [07-04]|oslook|台湾01 三网优化 隧道节点
-  - 🇩🇪 [07-04]|oslook|德国01 三网优化 隧道节点
-  - 🇯🇵 [07-04]|oslook|日本01 三网优化 隧道节点
-  - 🇫🇷 [07-04]|oslook|法国01 三网优化 隧道节点
-  - 🇺🇸 [07-04]|oslook|美国01 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国02 原生ip 推特 外贸 奈飞
-  - 🇺🇸 [07-04]|oslook|美国03 三网优化 隧道节点
-  - 🇬🇧 [07-04]|oslook|英国01 三网优化 隧道节点
-  - 🇭🇰 [07-04]|oslook|香港01 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港02 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港03 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港04 免流80节点
-  - 🇭🇰 [07-04]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
+  - 🇺🇸 [07-05]|oslook|Relay_🇨🇳CN-🇺🇸US_1944
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7578
+  - '[07-05]|oslook|🏁 ZZ_8119'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_893
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_484
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7547
+  - '[07-05]|oslook|Relay_ | 9.38Mb'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7570
+  - 🇯🇵 [07-05]|oslook|【直连】NRT/东京 B - 3
+  - '[07-05]|oslook|🇬🇧 GB_2700'
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_879
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7615
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_887
+  - 🇺🇸 [07-05]|oslook|美国㉔直连
+  - 🇺🇸 [07-05]|oslook|美国⑳直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸US_3745
+  - 🇺🇸 [07-05]|oslook|美国㉟直连
+  - 🇩🇪 [07-05]|oslook|Relay_🇺🇸US-🇩🇪DE_3760
+  - 🇺🇸 [07-05]|oslook|美国T1[初级|x1]
+  - 🇺🇸 [07-05]|oslook|美国㉞直连
+  - 🇨🇳 [07-05]|oslook|Relay_🇨🇳CN-🇬🇧GB_22 | 9.03Mb
+  - 🇺🇸 [07-05]|oslook|美国㊱直连
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7559
+  - 🇺🇸 [07-05]|oslook|美国③直连
+  - 🇯🇵 [07-05]|oslook|🇯🇵JP_2630
+  - 🇨🇳 [07-05]|oslook|🇨🇳 CN_883
+  - 🇯🇵 [07-05]|oslook|🇯🇵 JP_3458
+  - '[07-05]|oslook|_1744'
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_234
+  - 🇺🇸 [07-05]|oslook|🇺🇸 US_7555
+  - 🇨🇳 [07-05]|oslook|台湾01 三网优化 隧道节点
+  - 🇩🇪 [07-05]|oslook|德国01 三网优化 隧道节点
+  - 🇯🇵 [07-05]|oslook|日本01 三网优化 隧道节点
+  - 🇫🇷 [07-05]|oslook|法国01 三网优化 隧道节点
+  - 🇺🇸 [07-05]|oslook|美国01 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国02 原生ip 推特 外贸 奈飞
+  - 🇺🇸 [07-05]|oslook|美国03 三网优化 隧道节点
+  - 🇬🇧 [07-05]|oslook|英国01 三网优化 隧道节点
+  - 🇭🇰 [07-05]|oslook|香港01 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港02 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港03 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港04 免流80节点
+  - 🇭🇰 [07-05]|oslook|香港05 免流80节点 解锁奈飞 5000m高速
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
