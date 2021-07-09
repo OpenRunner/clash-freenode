@@ -4,73 +4,23 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: '[07-09]|oslook|'
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
-  port: 33998
-  server: 212.102.44.93
-  type: ss
-- alterId: 8
+- alterId: 34
   cipher: auto
-  name: '[07-09]|oslook|CA_782'
-  port: 61173
-  server: 204.124.181.118
-  tls: false
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 [07-09]|oslook|DE_5293
+  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
   network: ws
   port: 443
-  server: 104.21.48.161
+  server: www.who.int
   tls: true
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
   ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 [07-09]|oslook|DE_6368
-  network: ws
-  port: 443
-  server: 104.18.7.138
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 [07-09]|oslook|DE_6371
-  network: ws
-  port: 443
-  server: cdnde.irteyz.today
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 [07-09]|oslook|DE_6372
-  network: ws
-  port: 443
-  server: cfcn.9sep.org
-  tls: true
-  type: vmess
-  uuid: f22a80af-a9c9-3360-841e-25610688f353
-  ws-headers:
-    Host: de.sb-cloud.cf
-  ws-path: /0wejcsges
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 [07-09]|oslook|HK_1875
+  name: 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
   network: ws
-  port: 8001
+  port: 8004
   server: 54.223.185.171
   tls: false
   type: vmess
@@ -78,322 +28,93 @@ proxies:
   ws-headers:
     Host: 54.223.185.171
   ws-path: /
-- name: '[07-09]|oslook|ip3'
-  password: ba4fedf8c217c146
-  port: 3389
-  server: 120.236.197.205
-  type: trojan
-- cipher: aes-256-gcm
-  name: '[07-09]|oslook|IT_2560'
-  password: FWrXcxPZjJxAN89xLgqY3Acp
-  port: 44236
-  server: 82.102.26.117
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 [07-09]|oslook|JP_1876
-  network: ws
-  port: 8002
-  server: 54.223.185.171
-  tls: false
-  type: vmess
-  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
-  ws-headers:
-    Host: 54.223.185.171
-  ws-path: /
-- alterId: 12
-  cipher: auto
-  name: 🇯🇵 [07-09]|oslook|JP_2164
-  network: ws
-  port: 443
-  server: gmegme.ga
-  tls: true
-  type: vmess
-  uuid: 160ce2c0-89d2-11eb-aef3-560003425baf
-  ws-headers:
-    Host: gmegme.ga
-  ws-path: /zwWptVxh/
-- alterId: 100
-  cipher: auto
-  name: 🇰🇷 [07-09]|oslook|KR_294
-  port: 30090
-  server: v2.linn.ink
-  tls: false
-  type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
 - alterId: 64
   cipher: auto
-  name: 🇷🇺 [07-09]|oslook|RU_2392
+  name: '[07-09]|oslook|Relay_ |48.79Mb'
   network: ws
   port: 443
-  server: xxxray.salir.cl
-  tls: true
-  type: vmess
-  uuid: 9047cac9-6660-4b20-af97-8445a8396447
-  ws-headers:
-    Host: xxxray.salir.cl
-  ws-path: /PublicQwer
-- cipher: aes-256-gcm
-  name: 🇺🇸 [07-09]|oslook|US
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-  port: 49396
-  server: 198.8.92.84
-  type: ss
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|US_2777
-  network: ws
-  port: 443
-  server: qq1-cloud13.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1
-  ws-headers:
-    Host: qq1-cloud13.feiclouddd.me
-  ws-path: /asdfasdf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|US_2800
-  network: ws
-  port: 443
-  server: ban4.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8
-  ws-headers:
-    Host: ban4.feiclouddd.me
-  ws-path: /sdafasfsa
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|US_5295
-  network: ws
-  port: 443
-  server: 96.43.91.60
-  tls: true
-  type: vmess
-  uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
-  ws-headers:
-    Host: www.45218443.xyz
-  ws-path: /path/310910211916
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|US_5380
-  network: ws
-  port: 443
-  server: qq13.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 8
-  cipher: auto
-  name: '[07-09]|oslook|🇨🇦CA_1859'
-  port: 61173
-  server: 204.124.181.118
-  tls: false
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  network: ws
-  port: 80
-  server: 111.32.136.1
-  tls: false
-  type: vmess
-  uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74
-  ws-headers:
-    Host: 006.cdn.8x.cx.hit.edu.cn
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  port: 33957
-  server: 138.201.150.52
-  tls: false
-  type: vmess
-  uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  network: ws
-  port: 10004
-  server: 40.83.95.96
-  tls: false
-  type: vmess
-  uuid: 4f1d6742-c4e6-496a-81f2-d2acb63d4a1b
-  ws-headers:
-    Host: http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com
-  ws-path: /path
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  network: ws
-  port: 10010
-  server: 40.83.95.96
-  tls: false
-  type: vmess
-  uuid: 8e496961-8ee2-434c-9f47-5340d53ed7be
-  ws-headers:
-    Host: http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com
-  ws-path: /path
-- alterId: 64
-  cipher: auto
-  name: '[07-09]|oslook|🇭🇺 HU_2919'
-  port: 45081
-  server: 185.225.69.134
-  tls: false
-  type: vmess
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  network: ws
-  port: 443
-  server: 46.182.107.39
-  tls: true
-  type: vmess
-  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-  ws-headers:
-    Host: www.07890885.xyz
-  ws-path: /footers
-- alterId: 100
-  cipher: auto
-  name: '[07-09]|oslook|🇺🇳①V2综合节点'
-  port: 30090
-  server: v2.linn.ink
-  tls: false
-  type: vmess
-  uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  network: ws
-  port: 443
-  server: cdnde.irteyz.today
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  network: ws
-  port: 80
-  server: 13.57.246.196
-  tls: false
-  type: vmess
-  uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant
-- alterId: 8
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  port: 61173
-  server: 23.83.227.198
-  tls: false
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  network: ws
-  port: 443
-  server: 23.224.30.37
+  server: 23.224.30.36
   tls: true
   type: vmess
   uuid: e4494518-74e8-4d6b-942a-6b332cce09ef
   ws-headers:
     Host: www.01902367.xyz
   ws-path: /path/310910211916
-- alterId: 64
+- alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
+  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
   network: ws
   port: 443
-  server: 96.43.91.58
+  server: 104.21.93.113
   tls: true
   type: vmess
-  uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
   ws-headers:
-    Host: www.45218443.xyz
-  ws-path: /path/310910211916
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
+- alterId: 0
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |29.33Mb'
+  network: ws
+  port: 443
+  server: www.digitalocean.com
+  tls: true
+  type: vmess
+  uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+  ws-headers:
+    Host: by.6111.online
+  ws-path: /111111.online
 - alterId: 60
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
+  name: '[07-09]|oslook|Relay_ |59.00Mb'
   network: ws
   port: 443
-  server: ban4.feiclouddd.me
+  server: nn-ssr4.feiclouddd.me
   tls: true
   type: vmess
-  uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
   ws-headers:
-    Host: ban4.feiclouddd.me
-  ws-path: /sdafasfsa
-- alterId: 60
+    Host: nn-ssr4.feiclouddd.me
+  ws-path: /sadfasdf
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸US_2793
+  name: 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
   network: ws
-  port: 443
-  server: qq13.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 8
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  port: 61173
-  server: 23.83.227.198
+  port: 80
+  server: 3.33.138.235
   tls: false
   type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: 0
+  uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df
+  ws-headers:
+    Host: en.tgchannels.org/channel/vpnpool
+  ws-path: /
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸US_2803
+  name: '[07-09]|oslook|Relay_ | 6.16Mb'
   network: ws
-  port: 25561
-  server: 154.208.10.121
+  port: 30012
+  server: ngzyd-1.okex-tradebot.xyz
   tls: false
   type: vmess
-  uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af
+  uuid: 2c4af680-79de-4188-adf1-d53b34d428c7
   ws-headers:
-    Host: www.baidu.com
-  ws-path: /v2ray
-- alterId: 0
+    Host: ngzyd-1.okex-tradebot.xyz
+  ws-path: /
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸US_2805
+  name: '[07-09]|oslook|Relay_ |11.74Mb'
   network: ws
-  port: 48888
-  server: 173.82.42.241
+  port: 30002
+  server: ngzyd-1.okex-tradebot.xyz
   tls: false
   type: vmess
-  uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af
+  uuid: 2c4af680-79de-4188-adf1-d53b34d428c7
   ws-headers:
-    Host: www.baidu.com
-  ws-path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺 [07-09]|oslook|俄罗斯  25
-  network: ws
-  port: 443
-  server: a8.ssrsub.one
-  tls: true
-  type: vmess
-  uuid: 5fff7d2e-df00-11eb-a119-a90b396052ba
-  ws-headers:
-    Host: a8.ssrsub.one
-  ws-path: /xSLTJj4E/
+    Host: ngzyd-1.okex-tradebot.xyz
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇳🇱 [07-09]|oslook|荷兰
+  name: 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
   network: ws
   port: 443
   server: 46.182.107.25
@@ -405,163 +126,271 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|美国
-  port: 443
-  server: 18.157.179.71
-  tls: false
-  type: vmess
-  uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-09]|oslook|美国 2
+  name: '[07-09]|oslook|Relay_ |39.85Mb'
   network: ws
   port: 443
-  server: 104.18.6.138
+  server: 104.18.7.138
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|美国 3
+  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
   network: ws
   port: 443
-  server: 104.19.45.117
+  server: www.digitalocean.com
+  tls: true
+  type: vmess
+  uuid: f9fb81eb-1dca-4aa9-8446-b558dddf921c
+  ws-headers:
+    Host: purple-meadow-dea9.lkymqj04732.workers.dev
+  ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
+- alterId: 0
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ | 8.74Mb'
+  network: ws
+  port: 443
+  server: icook.tw
+  tls: true
+  type: vmess
+  uuid: f9fb81eb-1dca-4aa9-8446-b558dddf921c
+  ws-headers:
+    Host: purple-meadow-dea9.lkymqj04732.workers.dev
+  ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
+- alterId: 1
+  cipher: auto
+  name: 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  network: ws
+  port: 443
+  server: 122.248.229.64
+  tls: true
+  type: vmess
+  uuid: eeabb1b3-ddb9-4b54-812f-09a2eb3822e0
+  ws-headers:
+    Host: container-service-1.1p141cdo9m8vm.ap-southeast-1.cs.amazonlightsail.com
+  ws-path: /api/ddns
+- alterId: 64
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |76.24Mb'
+  network: ws
+  port: 443
+  server: 23.224.30.37
+  tls: true
+  type: vmess
+  uuid: e4494518-74e8-4d6b-942a-6b332cce09ef
+  ws-headers:
+    Host: www.01902367.xyz
+  ws-path: /path/310910211916
+- alterId: 0
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |112.04Mb'
+  network: ws
+  port: 443
+  server: v2raylpc.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  ws-headers:
+    Host: v2raylpc.herokuapp.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  network: ws
+  port: 443
+  server: 104.25.104.240
+  tls: true
+  type: vmess
+  uuid: f9fb81eb-1dca-4aa9-8446-b558dddf921c
+  ws-headers:
+    Host: purple-meadow-dea9.lkymqj04732.workers.dev
+  ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
+- alterId: 0
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |30.82Mb'
+  network: ws
+  port: 443
+  server: vir01.tk
+  tls: true
+  type: vmess
+  uuid: 4ed2dd77-090e-4d63-9cc4-1230c8c0292d
+  ws-headers:
+    Host: vir01.tk
+  ws-path: /
+- alterId: 60
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |117.12Mb'
+  network: ws
+  port: 443
+  server: qq1-cloud13.feiclouddd.me
+  tls: true
+  type: vmess
+  uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1
+  ws-headers:
+    Host: qq1-cloud13.feiclouddd.me
+  ws-path: /asdfasdf
+- alterId: 1
+  cipher: auto
+  name: '[07-09]|oslook| | 7.11Mb'
+  network: ws
+  port: 80
+  server: 165.22.103.3
+  tls: false
+  type: vmess
+  uuid: 5f33138a-9704-4637-a51a-b6b6e877e6b6
+  ws-headers:
+    Host: 165.22.103.3
+  ws-path: /
+- alterId: 34
+  cipher: auto
+  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  network: ws
+  port: 443
+  server: 104.18.226.52
+  tls: true
+  type: vmess
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
+  ws-headers:
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
+- alterId: 0
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ | 8.96Mb'
+  network: ws
+  port: 443
+  server: 104.22.44.50
+  tls: true
+  type: vmess
+  uuid: f9fb81eb-1dca-4aa9-8446-b558dddf921c
+  ws-headers:
+    Host: purple-meadow-dea9.lkymqj04732.workers.dev
+  ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
+- alterId: 34
+  cipher: auto
+  name: '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  network: ws
+  port: 443
+  server: 162.159.129.84
+  tls: true
+  type: vmess
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
+  ws-headers:
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
+- alterId: 64
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ | 6.40Mb'
+  network: ws
+  port: 443
+  server: xxxray.salir.cl
+  tls: true
+  type: vmess
+  uuid: 9047cac9-6660-4b20-af97-8445a8396447
+  ws-headers:
+    Host: xxxray.salir.cl
+  ws-path: /PublicQwer
+- alterId: 64
+  cipher: auto
+  name: '[07-09]|oslook|Relay_ |40.45Mb'
+  network: ws
+  port: 443
+  server: 104.21.48.161
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
-- alterId: 8
+- alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|美国 4
-  port: 61173
-  server: c23s801.jamjams.net
-  tls: false
+  name: '[07-09]|oslook|Relay_ |119.91Mb'
+  network: ws
+  port: 443
+  server: www.intur.gob.ni
+  tls: true
   type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- alterId: 8
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
+  ws-headers:
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
+- alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|美国 5
-  port: 61173
-  server: c23s3.jamjams.net
-  tls: false
+  name: Relay_ |77.31Mb
+  network: ws
+  port: 443
+  server: 104.17.113.188
+  tls: true
   type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-09]|oslook|美国㉜直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18333
-  server: 154.17.2.141
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-09]|oslook|美国㉝直连
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18334
-  server: 154.17.2.142
-  type: ss
+  uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44
+  ws-headers:
+    Host: edozvpn.xyz
+  ws-path: /9e1cb04e/
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -569,51 +398,33 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -624,152 +435,98 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -785,51 +542,33 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[07-09]|oslook|'
-  - '[07-09]|oslook|CA_782'
-  - 🇩🇪 [07-09]|oslook|DE_5293
-  - 🇩🇪 [07-09]|oslook|DE_6368
-  - 🇩🇪 [07-09]|oslook|DE_6371
-  - 🇩🇪 [07-09]|oslook|DE_6372
-  - 🇭🇰 [07-09]|oslook|HK_1875
-  - '[07-09]|oslook|ip3'
-  - '[07-09]|oslook|IT_2560'
-  - 🇯🇵 [07-09]|oslook|JP_1876
-  - 🇯🇵 [07-09]|oslook|JP_2164
-  - 🇰🇷 [07-09]|oslook|KR_294
-  - 🇷🇺 [07-09]|oslook|RU_2392
-  - 🇺🇸 [07-09]|oslook|US
-  - 🇺🇸 [07-09]|oslook|US_2777
-  - 🇺🇸 [07-09]|oslook|US_2800
-  - 🇺🇸 [07-09]|oslook|US_5295
-  - 🇺🇸 [07-09]|oslook|US_5380
-  - '[07-09]|oslook|🇨🇦CA_1859'
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_892
-  - 🇩🇪 [07-09]|oslook|🇩🇪DE_1923
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2807
-  - 🇭🇰 [07-09]|oslook|🇭🇰 HK_2809
-  - '[07-09]|oslook|🇭🇺 HU_2919'
-  - 🇳🇱 [07-09]|oslook|🇳🇱 NL_4129
-  - '[07-09]|oslook|🇺🇳①V2综合节点'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7574
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7575
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7576
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7592
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7600
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7603
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2793
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2797
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2803
-  - 🇺🇸 [07-09]|oslook|🇺🇸US_2805
-  - 🇷🇺 [07-09]|oslook|俄罗斯  25
-  - 🇳🇱 [07-09]|oslook|荷兰
-  - 🇺🇸 [07-09]|oslook|美国
-  - 🇺🇸 [07-09]|oslook|美国 2
-  - 🇺🇸 [07-09]|oslook|美国 3
-  - 🇺🇸 [07-09]|oslook|美国 4
-  - 🇺🇸 [07-09]|oslook|美国 5
-  - 🇺🇸 [07-09]|oslook|美国㉜直连
-  - 🇺🇸 [07-09]|oslook|美国㉝直连
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  - '[07-09]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  - '[07-09]|oslook|Relay_ |29.33Mb'
+  - '[07-09]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-09]|oslook|Relay_ | 6.16Mb'
+  - '[07-09]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-09]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-09]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  - '[07-09]|oslook|Relay_ |76.24Mb'
+  - '[07-09]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-09]|oslook|Relay_ |30.82Mb'
+  - '[07-09]|oslook|Relay_ |117.12Mb'
+  - '[07-09]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-09]|oslook|Relay_ | 8.96Mb'
+  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-09]|oslook|Relay_ | 6.40Mb'
+  - '[07-09]|oslook|Relay_ |40.45Mb'
+  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - Relay_ |77.31Mb
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
