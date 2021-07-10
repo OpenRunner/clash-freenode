@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  name: 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
   network: ws
   port: 443
   server: www.who.int
@@ -18,7 +18,7 @@ proxies:
   ws-path: /9e1cb04e/
 - alterId: 1
   cipher: auto
-  name: 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
+  name: 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
   network: ws
   port: 8004
   server: 54.223.185.171
@@ -30,7 +30,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |48.79Mb'
+  name: '[07-10]|oslook|Relay_ |48.79Mb'
   network: ws
   port: 443
   server: 23.224.30.36
@@ -42,7 +42,7 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
+  name: 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
   network: ws
   port: 443
   server: 104.21.93.113
@@ -54,7 +54,7 @@ proxies:
   ws-path: /9e1cb04e/
 - alterId: 0
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |29.33Mb'
+  name: '[07-10]|oslook|Relay_ |29.33Mb'
   network: ws
   port: 443
   server: www.digitalocean.com
@@ -66,7 +66,7 @@ proxies:
   ws-path: /111111.online
 - alterId: 60
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |59.00Mb'
+  name: '[07-10]|oslook|Relay_ |59.00Mb'
   network: ws
   port: 443
   server: nn-ssr4.feiclouddd.me
@@ -78,7 +78,7 @@ proxies:
   ws-path: /sadfasdf
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  name: 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
   network: ws
   port: 80
   server: 3.33.138.235
@@ -90,7 +90,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: '[07-09]|oslook|Relay_ | 6.16Mb'
+  name: '[07-10]|oslook|Relay_ | 6.16Mb'
   network: ws
   port: 30012
   server: ngzyd-1.okex-tradebot.xyz
@@ -102,7 +102,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |11.74Mb'
+  name: '[07-10]|oslook|Relay_ |11.74Mb'
   network: ws
   port: 30002
   server: ngzyd-1.okex-tradebot.xyz
@@ -114,7 +114,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  name: 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
   network: ws
   port: 443
   server: 46.182.107.25
@@ -126,7 +126,7 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 64
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |39.85Mb'
+  name: '[07-10]|oslook|Relay_ |39.85Mb'
   network: ws
   port: 443
   server: 104.18.7.138
@@ -138,7 +138,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
+  name: 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
   network: ws
   port: 443
   server: www.digitalocean.com
@@ -150,7 +150,7 @@ proxies:
   ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
 - alterId: 0
   cipher: auto
-  name: '[07-09]|oslook|Relay_ | 8.74Mb'
+  name: '[07-10]|oslook|Relay_ | 8.74Mb'
   network: ws
   port: 443
   server: icook.tw
@@ -162,7 +162,7 @@ proxies:
   ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
 - alterId: 1
   cipher: auto
-  name: 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
+  name: 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
   network: ws
   port: 443
   server: 122.248.229.64
@@ -174,7 +174,7 @@ proxies:
   ws-path: /api/ddns
 - alterId: 64
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |76.24Mb'
+  name: '[07-10]|oslook|Relay_ |76.24Mb'
   network: ws
   port: 443
   server: 23.224.30.37
@@ -186,7 +186,7 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 0
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |112.04Mb'
+  name: '[07-10]|oslook|Relay_ |112.04Mb'
   network: ws
   port: 443
   server: v2raylpc.herokuapp.com
@@ -198,7 +198,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  name: 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
   network: ws
   port: 443
   server: 104.25.104.240
@@ -210,7 +210,7 @@ proxies:
   ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
 - alterId: 0
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |30.82Mb'
+  name: '[07-10]|oslook|Relay_ |30.82Mb'
   network: ws
   port: 443
   server: vir01.tk
@@ -222,7 +222,7 @@ proxies:
   ws-path: /
 - alterId: 60
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |117.12Mb'
+  name: '[07-10]|oslook|Relay_ |117.12Mb'
   network: ws
   port: 443
   server: qq1-cloud13.feiclouddd.me
@@ -234,7 +234,7 @@ proxies:
   ws-path: /asdfasdf
 - alterId: 1
   cipher: auto
-  name: '[07-09]|oslook| | 7.11Mb'
+  name: '[07-10]|oslook| | 7.11Mb'
   network: ws
   port: 80
   server: 165.22.103.3
@@ -246,7 +246,7 @@ proxies:
   ws-path: /
 - alterId: 34
   cipher: auto
-  name: 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  name: 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
   network: ws
   port: 443
   server: 104.18.226.52
@@ -258,7 +258,7 @@ proxies:
   ws-path: /9e1cb04e/
 - alterId: 0
   cipher: auto
-  name: '[07-09]|oslook|Relay_ | 8.96Mb'
+  name: '[07-10]|oslook|Relay_ | 8.96Mb'
   network: ws
   port: 443
   server: 104.22.44.50
@@ -270,7 +270,7 @@ proxies:
   ws-path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess
 - alterId: 34
   cipher: auto
-  name: '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  name: '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
   network: ws
   port: 443
   server: 162.159.129.84
@@ -282,7 +282,7 @@ proxies:
   ws-path: /9e1cb04e/
 - alterId: 64
   cipher: auto
-  name: '[07-09]|oslook|Relay_ | 6.40Mb'
+  name: '[07-10]|oslook|Relay_ | 6.40Mb'
   network: ws
   port: 443
   server: xxxray.salir.cl
@@ -294,7 +294,7 @@ proxies:
   ws-path: /PublicQwer
 - alterId: 64
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |40.45Mb'
+  name: '[07-10]|oslook|Relay_ |40.45Mb'
   network: ws
   port: 443
   server: 104.21.48.161
@@ -306,7 +306,7 @@ proxies:
   ws-path: /
 - alterId: 34
   cipher: auto
-  name: '[07-09]|oslook|Relay_ |119.91Mb'
+  name: '[07-10]|oslook|Relay_ |119.91Mb'
   network: ws
   port: 443
   server: www.intur.gob.ni
@@ -333,63 +333,63 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -398,32 +398,32 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 - name: 🌏 国内媒体
@@ -435,64 +435,64 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 - name: 🍎 苹果服务
@@ -500,32 +500,32 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 - name: 🎯 全球直连
@@ -542,32 +542,32 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
-  - 🇨🇳 [07-09]|oslook|🇨🇳 CN_908
-  - '[07-09]|oslook|Relay_ |48.79Mb'
-  - 🇺🇸 [07-09]|oslook|🇺🇸 US_7473
-  - '[07-09]|oslook|Relay_ |29.33Mb'
-  - '[07-09]|oslook|Relay_ |59.00Mb'
-  - 🇭🇰 [07-09]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
-  - '[07-09]|oslook|Relay_ | 6.16Mb'
-  - '[07-09]|oslook|Relay_ |11.74Mb'
-  - 🇳🇱 [07-09]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
-  - '[07-09]|oslook|Relay_ |39.85Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US | 1.85Mb
-  - '[07-09]|oslook|Relay_ | 8.74Mb'
-  - 🇸🇬 [07-09]|oslook|🇸🇬 SG_5230
-  - '[07-09]|oslook|Relay_ |76.24Mb'
-  - '[07-09]|oslook|Relay_ |112.04Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
-  - '[07-09]|oslook|Relay_ |30.82Mb'
-  - '[07-09]|oslook|Relay_ |117.12Mb'
-  - '[07-09]|oslook| | 7.11Mb'
-  - 🇺🇸 [07-09]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
-  - '[07-09]|oslook|Relay_ | 8.96Mb'
-  - '[07-09]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
-  - '[07-09]|oslook|Relay_ | 6.40Mb'
-  - '[07-09]|oslook|Relay_ |40.45Mb'
-  - '[07-09]|oslook|Relay_ |119.91Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_7270 |126.41Mb
+  - 🇨🇳 [07-10]|oslook|🇨🇳 CN_908
+  - '[07-10]|oslook|Relay_ |48.79Mb'
+  - 🇺🇸 [07-10]|oslook|🇺🇸 US_7473
+  - '[07-10]|oslook|Relay_ |29.33Mb'
+  - '[07-10]|oslook|Relay_ |59.00Mb'
+  - 🇭🇰 [07-10]|oslook|Relay_🇺🇸US-🇭🇰HK_7320
+  - '[07-10]|oslook|Relay_ | 6.16Mb'
+  - '[07-10]|oslook|Relay_ |11.74Mb'
+  - 🇳🇱 [07-10]|oslook|Relay_🇳🇱NL-🇳🇱NL_08
+  - '[07-10]|oslook|Relay_ |39.85Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US | 1.85Mb
+  - '[07-10]|oslook|Relay_ | 8.74Mb'
+  - 🇸🇬 [07-10]|oslook|🇸🇬 SG_5230
+  - '[07-10]|oslook|Relay_ |76.24Mb'
+  - '[07-10]|oslook|Relay_ |112.04Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇺🇸US_7266 |10.67Mb
+  - '[07-10]|oslook|Relay_ |30.82Mb'
+  - '[07-10]|oslook|Relay_ |117.12Mb'
+  - '[07-10]|oslook| | 7.11Mb'
+  - 🇺🇸 [07-10]|oslook|Relay_🇺🇸US-🇨🇦CA_2813
+  - '[07-10]|oslook|Relay_ | 8.96Mb'
+  - '[07-10]|oslook|Relay_🏁ZZ-🇨🇦CA_7790 |11.48Mb'
+  - '[07-10]|oslook|Relay_ | 6.40Mb'
+  - '[07-10]|oslook|Relay_ |40.45Mb'
+  - '[07-10]|oslook|Relay_ |119.91Mb'
   - Relay_ |77.31Mb
   type: select
 rules:
