@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-- name: https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
-  type: vmess
-  server: 13.49.246.208
-  port: '443'
-  uuid: df055ea2-4d3a-445e-977d-8e958abaad3a
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /xamjyss143/
-  ws-headers:
-    Host: v2ray-se-2.xamjyssvpn.xyz
-  tls: true
 - name: https://git.io/v9999 莫斯科
   type: vmess
   server: 46.17.43.179
@@ -30,30 +17,6 @@ proxies:
   ws-path: e25d3f2d-ed4b-486d-9cde-31322a0af1fc
   ws-headers:
     Host: chacha20-poly1305
-- name: https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  type: vmess
-  server: c23s3.jamjams.net
-  port: '61173'
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: '8'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
-  type: vmess
-  server: c23s801.jamjams.net
-  port: '61173'
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: '8'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
 - name: https://git.io/v9999 美国CloudFlare公司CDN节点 26
   type: vmess
   server: 104.18.6.138
@@ -77,18 +40,6 @@ proxies:
   ucp: true
   network: quic
   ws-path: 2f109b50-c52f-498a-86b0-b233d1f2f5a7
-  ws-headers:
-    Host: chacha20-poly1305
-- name: https://git.io/v9999 德国
-  type: vmess
-  server: 217.79.181.111
-  port: '28602'
-  uuid: 834a7c7d-11d5-46a9-a404-3837260fce4b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: quic
-  ws-path: 0f7c0080-acd1-4cf6-b545-eca04f2c0e3e
   ws-headers:
     Host: chacha20-poly1305
 proxy-groups:
@@ -144,13 +95,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -204,13 +151,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -264,13 +207,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 📲 电报信息
   type: select
   proxies:
@@ -323,13 +262,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -382,13 +317,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -441,13 +372,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -501,13 +428,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -519,25 +442,17 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 - name: 🐟 漏网之鱼
   type: select
   proxies:
@@ -591,13 +506,9 @@ proxy-groups:
   - 🇩🇪 https://www.mattkaydiary.com|德国
   - 🇺🇸 https://www.mattkaydiary.com|美国 3
   - https://www.mattkaydiary.com|Relay_ | 9.17Mb
-  - https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
-  - https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
-  - https://git.io/v9999 德国
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
