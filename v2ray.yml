@@ -41,19 +41,6 @@ proxies:
   ws-path: e25d3f2d-ed4b-486d-9cde-31322a0af1fc
   ws-headers:
     Host: chacha20-poly1305
-- name: https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
-  type: vmess
-  server: qn-a-02.joker007.top
-  port: '80'
-  uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448
-  alterId: '1'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: ''
-  ws-headers:
-    Host: ''
-  tls: true
 - name: https://git.io/v9999 美国CloudFlare节点 43
   type: vmess
   server: cdnde.irteyz.today
@@ -175,7 +162,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -240,7 +226,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -305,7 +290,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -369,7 +353,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -433,7 +416,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -497,7 +479,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -562,7 +543,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -582,7 +562,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -596,7 +575,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
@@ -661,7 +639,6 @@ proxy-groups:
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国加利福尼亚州洛杉矶QuadraNet数据中心 12
   - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
   - https://git.io/v9999 美国CloudFlare公司CDN节点 26
