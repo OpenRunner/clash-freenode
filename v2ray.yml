@@ -5,6 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+- name: https://git.io/v9999 匈牙利  46
+  type: vmess
+  server: 185.225.69.134
+  port: '45081'
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
 - name: https://git.io/v9999 香港Amazon数据中心 3
   type: vmess
   server: 18.166.214.33
@@ -29,6 +41,18 @@ proxies:
   ws-path: /
   ws-headers:
     Host: ''
+- name: https://git.io/v9999 日本东京Linode数据中心 1
+  type: vmess
+  server: auto.freev2.top
+  port: '21866'
+  uuid: 48a92cf0-e7ae-48bf-ba48-8894c6470aee
+  alterId: '1'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
 - name: https://git.io/v9999 莫斯科
   type: vmess
   server: 46.17.43.179
@@ -41,19 +65,6 @@ proxies:
   ws-path: e25d3f2d-ed4b-486d-9cde-31322a0af1fc
   ws-headers:
     Host: chacha20-poly1305
-- name: https://git.io/v9999 美国CloudFlare节点 43
-  type: vmess
-  server: cdnde.irteyz.today
-  port: '443'
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-  tls: true
 - name: https://git.io/v9999 美国CloudFlare节点 41
   type: vmess
   server: euserv9p.ezddns.tk
@@ -66,19 +77,6 @@ proxies:
   ws-path: /live
   ws-headers:
     Host: ''
-- name: https://git.io/v9999 美国CloudFlare公司CDN节点 26
-  type: vmess
-  server: 104.18.6.138
-  port: '443'
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-  tls: true
 - name: https://git.io/v9999 荷兰
   type: vmess
   server: 163.172.214.118
@@ -174,12 +172,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: ♻️ 自动选择
@@ -252,12 +250,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 🌍 国外媒体
@@ -331,12 +329,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 🌏 国内媒体
@@ -378,12 +376,12 @@ proxy-groups:
   - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
   - 🔰 节点选择
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: Ⓜ️ 微软服务
@@ -456,12 +454,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 📲 电报信息
@@ -534,12 +532,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 🍎 苹果服务
@@ -613,12 +611,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 🎯 全球直连
@@ -630,12 +628,12 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 - name: 🐟 漏网之鱼
@@ -709,12 +707,12 @@ proxy-groups:
   - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Manassas
   - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
   - 🇨🇳 https://www.mattkaydiary.com|中国台湾(TW)Taiwan/Taipei
+  - https://git.io/v9999 匈牙利  46
   - https://git.io/v9999 香港Amazon数据中心 3
   - https://git.io/v9999 台湾省中华电信(HiNet)数据中心 4
+  - https://git.io/v9999 日本东京Linode数据中心 1
   - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 美国CloudFlare节点 43
   - https://git.io/v9999 美国CloudFlare节点 41
-  - https://git.io/v9999 美国CloudFlare公司CDN节点 26
   - https://git.io/v9999 荷兰
   - https://git.io/v9999 德国Hetzner 16
 rules:
