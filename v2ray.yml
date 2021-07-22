@@ -1,9 +1,8 @@
-port: 7890
-socks-port: 7891
 allow-lan: true
-mode: Rule
-log-level: info
 external-controller: :9090
+log-level: info
+mode: Rule
+port: 7890
 proxies:
 - name: https://git.io/v9999 莫斯科
   type: vmess
@@ -31,327 +30,327 @@ proxies:
     Host: ''
 proxy-groups:
 - name: 🔰 节点选择
-  type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: ♻️ 自动选择
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 荷兰
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
-  - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 荷兰
 - name: 🌍 国外媒体
-  type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: 🌏 国内媒体
-  type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: Ⓜ️ 微软服务
-  type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: 📲 电报信息
-  type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🍎 苹果服务
   type: select
+- name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🎯 全球直连
   type: select
+- name: 🎯 全球直连
   proxies:
   - DIRECT
-- name: 🛑 全球拦截
   type: select
+- name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🐟 漏网之鱼
   type: select
+- name: 🐟 漏网之鱼
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉚直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊵直连
-  - https://www.mattkaydiary.com|154.17.2.31:18333
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT10
-  - 🇺🇸 https://www.mattkaydiary.com|0703 - 美国DMIT14
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉗直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉖直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑳直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊴直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉒直连
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊺直连
-  - https://www.mattkaydiary.com|0703 - 154.17.1.251:18334
-  - 🇺🇸 https://www.mattkaydiary.com|美国⑮直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US
-  - 🇭🇰 https://www.mattkaydiary.com|🇭🇰HK
-  - https://www.mattkaydiary.com|95.29Mb
-  - https://www.mattkaydiary.com|
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US
-  - 🇯🇵 https://www.mattkaydiary.com|日本
-  - 🇷🇺 https://www.mattkaydiary.com|🇷🇺RU_444
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US 2
-  - 🇺🇸 https://www.mattkaydiary.com|US_4984
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL
-  - 🇯🇵 https://www.mattkaydiary.com|🇯🇵JP
-  - https://www.mattkaydiary.com| 2
-  - https://www.mattkaydiary.com| 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国㊷直连
-  - 🇳🇱 https://www.mattkaydiary.com|🇳🇱NL 2
-  - 🇩🇪 https://www.mattkaydiary.com|🇩🇪DE
-  - https://www.mattkaydiary.com| 4
-  - https://www.mattkaydiary.com| 5
-  - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-  - 🇺🇸 https://www.mattkaydiary.com|美国㉞直连
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 2
-  - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US 3
-  - 🇬🇧 https://www.mattkaydiary.com|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10398,3 +10397,6 @@ rules:
 - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
+- DOMAIN-SUFFIX,dyndns.com,🎯 全球直连
+- DOMAIN-SUFFIX,dyndns.org,🎯 全球直连
+socks-port: 7891
