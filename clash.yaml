@@ -5,86 +5,86 @@ mode: Rule
 port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㉚直连
+  name: 🇺🇸 [07-22]|oslook|美国㉚直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18333
   server: 154.17.2.135
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㊵直连
+  name: 🇺🇸 [07-22]|oslook|美国㊵直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18333
   server: 154.17.2.217
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[07-21]|oslook|154.17.2.31:18333'
+  name: '[07-22]|oslook|154.17.2.31:18333'
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18333
   server: 154.17.2.31
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
+  name: 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
   password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB
   port: 18335
   server: 154.17.2.112
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
+  name: 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18331
   server: 154.17.5.184
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㉗直连
+  name: 🇺🇸 [07-22]|oslook|美国㉗直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.121
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㉖直连
+  name: 🇺🇸 [07-22]|oslook|美国㉖直连
   password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3
   port: 18333
   server: 154.17.2.117
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国⑳直连
+  name: 🇺🇸 [07-22]|oslook|美国⑳直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.95
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㊴直连
+  name: 🇺🇸 [07-22]|oslook|美国㊴直连
   password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9
   port: 18332
   server: 154.17.2.211
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㉒直连
+  name: 🇺🇸 [07-22]|oslook|美国㉒直连
   password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj
   port: 18335
   server: 154.17.2.109
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㊺直连
+  name: 🇺🇸 [07-22]|oslook|美国㊺直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.1.245
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[07-21]|oslook|0703 - 154.17.1.251:18334'
+  name: '[07-22]|oslook|0703 - 154.17.1.251:18334'
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.1.251
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国⑮直连
+  name: 🇺🇸 [07-22]|oslook|美国⑮直连
   password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx
   port: 18333
   server: 154.17.2.54
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-21]|oslook|🇺🇸 US
+  name: 🇺🇸 [07-22]|oslook|🇺🇸 US
   network: ws
   port: 443
   server: 64.32.13.30
@@ -96,7 +96,7 @@ proxies:
   ws-path: /path/310910211916
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 [07-21]|oslook|🇭🇰HK
+  name: 🇭🇰 [07-22]|oslook|🇭🇰HK
   network: ws
   port: 50000
   server: azhk2.pengui.tools
@@ -108,7 +108,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: '[07-21]|oslook|95.29Mb'
+  name: '[07-22]|oslook|95.29Mb'
   port: 14924
   server: 54.215.234.182
   tls: false
@@ -116,7 +116,7 @@ proxies:
   uuid: d099824d-8259-4c45-f6ab-c1896f741393
 - alterId: 64
   cipher: auto
-  name: '[07-21]|oslook|'
+  name: '[07-22]|oslook|'
   port: 14924
   server: 54.215.234.182
   tls: false
@@ -124,7 +124,7 @@ proxies:
   uuid: d099824d-8259-4c45-f6ab-c1896f741393
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-21]|oslook|🇺🇸US
+  name: 🇺🇸 [07-22]|oslook|🇺🇸US
   port: 20511
   server: 45.63.84.173
   tls: false
@@ -132,7 +132,7 @@ proxies:
   uuid: c37d2866-4e07-45cf-ba78-2ef59c13630f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 [07-21]|oslook|日本
+  name: 🇯🇵 [07-22]|oslook|日本
   port: 35156
   server: 54.249.53.46
   tls: false
@@ -140,7 +140,7 @@ proxies:
   uuid: 4c842f71-039e-42f1-bcf6-7e48be4e129e
 - alterId: 0
   cipher: auto
-  name: 🇷🇺 [07-21]|oslook|🇷🇺RU_444
+  name: 🇷🇺 [07-22]|oslook|🇷🇺RU_444
   port: 38673
   server: 194.87.48.252
   tls: false
@@ -148,7 +148,7 @@ proxies:
   uuid: f0da4655-f438-4008-a9e0-6c7f0c4cfaa5
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-21]|oslook|🇺🇸 US 2
+  name: 🇺🇸 [07-22]|oslook|🇺🇸 US 2
   network: ws
   port: 443
   server: 173.82.14.242
@@ -159,14 +159,14 @@ proxies:
     Host: www.36191169.xyz
   ws-path: /path/310910211916
 - cipher: aes-256-gcm
-  name: 🇺🇸 [07-21]|oslook|US_4984
+  name: 🇺🇸 [07-22]|oslook|US_4984
   password: WCuz7yrfZSCQQXSNrtGPz2HT
   port: 50168
   server: 66.115.175.37
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇳🇱 [07-21]|oslook|🇳🇱NL
+  name: 🇳🇱 [07-22]|oslook|🇳🇱NL
   network: ws
   port: 443
   server: 46.182.107.165
@@ -178,7 +178,7 @@ proxies:
   ws-path: /footers
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 [07-21]|oslook|🇯🇵JP
+  name: 🇯🇵 [07-22]|oslook|🇯🇵JP
   network: ws
   port: 50000
   server: azjp.pengui.tools
@@ -190,7 +190,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '[07-21]|oslook| 2'
+  name: '[07-22]|oslook| 2'
   port: 47611
   server: 35.178.68.152
   tls: false
@@ -198,7 +198,7 @@ proxies:
   uuid: 97a4d167-b361-48b8-b004-8bc45669e334
 - alterId: 64
   cipher: auto
-  name: '[07-21]|oslook| 3'
+  name: '[07-22]|oslook| 3'
   network: ws
   port: 9233
   server: 211.23.132.124
@@ -209,14 +209,14 @@ proxies:
     Host: 211.23.132.124
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㊷直连
+  name: 🇺🇸 [07-22]|oslook|美国㊷直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18331
   server: 154.17.5.133
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇳🇱 [07-21]|oslook|🇳🇱NL 2
+  name: 🇳🇱 [07-22]|oslook|🇳🇱NL 2
   port: 37889
   server: 108.61.199.250
   tls: false
@@ -224,7 +224,7 @@ proxies:
   uuid: 025ccdd9-9b9d-4ebf-8c39-725c3f438637
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 [07-21]|oslook|🇩🇪DE
+  name: 🇩🇪 [07-22]|oslook|🇩🇪DE
   port: 33146
   server: 80.240.24.124
   tls: false
@@ -232,7 +232,7 @@ proxies:
   uuid: e263b82d-2196-4b2c-92f0-c5533c75e745
 - alterId: 0
   cipher: auto
-  name: '[07-21]|oslook| 4'
+  name: '[07-22]|oslook| 4'
   port: 37390
   server: 139.180.169.69
   tls: false
@@ -240,7 +240,7 @@ proxies:
   uuid: 208bc0c8-a6ed-4625-9700-124f824bbe5c
 - alterId: 0
   cipher: auto
-  name: '[07-21]|oslook| 5'
+  name: '[07-22]|oslook| 5'
   network: ws
   port: 80
   server: euserv5p.ezddns.tk
@@ -252,21 +252,21 @@ proxies:
   ws-path: /audio.wav
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 [07-21]|oslook|韩国首尔
+  name: 🇰🇷 [07-22]|oslook|韩国首尔
   port: 56531
   server: 13.209.43.110
   tls: false
   type: vmess
   uuid: dca7cafb-0828-465c-b6e7-812b241ad538
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 [07-21]|oslook|美国㉞直连
+  name: 🇺🇸 [07-22]|oslook|美国㉞直连
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   port: 18334
   server: 154.17.2.149
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-21]|oslook|🇺🇸US 2
+  name: 🇺🇸 [07-22]|oslook|🇺🇸US 2
   port: 50109
   server: 216.128.181.160
   tls: false
@@ -274,14 +274,14 @@ proxies:
   uuid: 737a9170-debb-4638-9924-9f55f35717f2
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-21]|oslook|🇺🇸US 3
+  name: 🇺🇸 [07-22]|oslook|🇺🇸US 3
   port: 31991
   server: 45.32.228.81
   tls: false
   type: vmess
   uuid: 34a625d5-c34e-4187-b20f-9cdfced22e3b
 - cipher: aes-256-gcm
-  name: 🇬🇧 [07-21]|oslook|uk
+  name: 🇬🇧 [07-22]|oslook|uk
   password: n8w4StnbVD9dmXYn4Ajt87EA
   port: 31572
   server: 185.44.76.188
@@ -291,82 +291,82 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -374,42 +374,42 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -420,125 +420,125 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -554,42 +554,42 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 [07-21]|oslook|美国㉚直连
-  - 🇺🇸 [07-21]|oslook|美国㊵直连
-  - '[07-21]|oslook|154.17.2.31:18333'
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT10
-  - 🇺🇸 [07-21]|oslook|0703 - 美国DMIT14
-  - 🇺🇸 [07-21]|oslook|美国㉗直连
-  - 🇺🇸 [07-21]|oslook|美国㉖直连
-  - 🇺🇸 [07-21]|oslook|美国⑳直连
-  - 🇺🇸 [07-21]|oslook|美国㊴直连
-  - 🇺🇸 [07-21]|oslook|美国㉒直连
-  - 🇺🇸 [07-21]|oslook|美国㊺直连
-  - '[07-21]|oslook|0703 - 154.17.1.251:18334'
-  - 🇺🇸 [07-21]|oslook|美国⑮直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US
-  - 🇭🇰 [07-21]|oslook|🇭🇰HK
-  - '[07-21]|oslook|95.29Mb'
-  - '[07-21]|oslook|'
-  - 🇺🇸 [07-21]|oslook|🇺🇸US
-  - 🇯🇵 [07-21]|oslook|日本
-  - 🇷🇺 [07-21]|oslook|🇷🇺RU_444
-  - 🇺🇸 [07-21]|oslook|🇺🇸 US 2
-  - 🇺🇸 [07-21]|oslook|US_4984
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL
-  - 🇯🇵 [07-21]|oslook|🇯🇵JP
-  - '[07-21]|oslook| 2'
-  - '[07-21]|oslook| 3'
-  - 🇺🇸 [07-21]|oslook|美国㊷直连
-  - 🇳🇱 [07-21]|oslook|🇳🇱NL 2
-  - 🇩🇪 [07-21]|oslook|🇩🇪DE
-  - '[07-21]|oslook| 4'
-  - '[07-21]|oslook| 5'
-  - 🇰🇷 [07-21]|oslook|韩国首尔
-  - 🇺🇸 [07-21]|oslook|美国㉞直连
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 2
-  - 🇺🇸 [07-21]|oslook|🇺🇸US 3
-  - 🇬🇧 [07-21]|oslook|uk
+  - 🇺🇸 [07-22]|oslook|美国㉚直连
+  - 🇺🇸 [07-22]|oslook|美国㊵直连
+  - '[07-22]|oslook|154.17.2.31:18333'
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT10
+  - 🇺🇸 [07-22]|oslook|0703 - 美国DMIT14
+  - 🇺🇸 [07-22]|oslook|美国㉗直连
+  - 🇺🇸 [07-22]|oslook|美国㉖直连
+  - 🇺🇸 [07-22]|oslook|美国⑳直连
+  - 🇺🇸 [07-22]|oslook|美国㊴直连
+  - 🇺🇸 [07-22]|oslook|美国㉒直连
+  - 🇺🇸 [07-22]|oslook|美国㊺直连
+  - '[07-22]|oslook|0703 - 154.17.1.251:18334'
+  - 🇺🇸 [07-22]|oslook|美国⑮直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US
+  - 🇭🇰 [07-22]|oslook|🇭🇰HK
+  - '[07-22]|oslook|95.29Mb'
+  - '[07-22]|oslook|'
+  - 🇺🇸 [07-22]|oslook|🇺🇸US
+  - 🇯🇵 [07-22]|oslook|日本
+  - 🇷🇺 [07-22]|oslook|🇷🇺RU_444
+  - 🇺🇸 [07-22]|oslook|🇺🇸 US 2
+  - 🇺🇸 [07-22]|oslook|US_4984
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL
+  - 🇯🇵 [07-22]|oslook|🇯🇵JP
+  - '[07-22]|oslook| 2'
+  - '[07-22]|oslook| 3'
+  - 🇺🇸 [07-22]|oslook|美国㊷直连
+  - 🇳🇱 [07-22]|oslook|🇳🇱NL 2
+  - 🇩🇪 [07-22]|oslook|🇩🇪DE
+  - '[07-22]|oslook| 4'
+  - '[07-22]|oslook| 5'
+  - 🇰🇷 [07-22]|oslook|韩国首尔
+  - 🇺🇸 [07-22]|oslook|美国㉞直连
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 2
+  - 🇺🇸 [07-22]|oslook|🇺🇸US 3
+  - 🇬🇧 [07-22]|oslook|uk
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连

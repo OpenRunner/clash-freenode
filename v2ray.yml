@@ -8,15 +8,15 @@ proxies:
 - name: https://git.io/v9999 莫斯科
   type: vmess
   server: 46.17.43.179
-  port: '31231'
+  port: '43829'
   uuid: 9c10617c-464d-4bb1-8b97-bbdec6ebc7d1
   alterId: '0'
   cipher: auto
   ucp: true
-  network: quic
-  ws-path: e25d3f2d-ed4b-486d-9cde-31322a0af1fc
+  network: tcp
+  ws-path: ''
   ws-headers:
-    Host: chacha20-poly1305
+    Host: ''
 - name: https://git.io/v9999 荷兰
   type: vmess
   server: 163.172.214.118
