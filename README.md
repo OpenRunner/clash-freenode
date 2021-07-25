@@ -5,7 +5,7 @@
  https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
  
  (备份)  
- https://cdn.jsdelivr.net/gh/oslook/clash-freenodes@master/clash.yaml
+ https://cdn.jsdelivr.net/gh/oslook/clash-freenode@master/clash.yaml
 
 ## 应用
 ### Clash 客户端
