@@ -6,81 +6,39 @@ port: 7890
 proxies:
 - alterId: 1
   cipher: auto
+  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  network: ws
+  port: 52041
+  server: hk.proxypools.top
+  tls: false
+  type: vmess
+  uuid: 0c456e0a-7d51-4fb2-a430-7b780edab15e
+  ws-headers:
+    Host: hk.proxypools.top
+  ws-path: /tg2shenseven
+- alterId: 0
+  cipher: auto
   name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   network: ws
-  port: 51197
-  server: sy-gg-02.ddns-only.xyz
+  port: 20020
+  server: 120.236.197.202
   tls: false
   type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
+  uuid: b8583f26-9717-3f5a-91cf-b48a910344ad
   ws-headers:
-    Host: sy-gg-02.ddns-only.xyz
-  ws-path: /sy666666
+    Host: 120.236.197.202
+  ws-path: /mfyun.m3u8
+- name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  password: c29218f3-4de8-4143-8be8-8e61883e63a4
+  port: 11126
+  server: transit-azure-f2s-hk.speedtestcustom.tk
+  sni: transit-azure-f2s-hk.speedtestcustom.tk
+  type: trojan
 - alterId: 1
   cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
   network: ws
-  port: 13345
-  server: sy-gg-02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: sy-gg-02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 1
-  cipher: auto
-  name: '[07-30]|oslook'
-  network: ws
-  port: 13665
-  server: shanghai02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: shanghai02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  network: ws
-  port: 13670
-  server: shanghai02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: shanghai02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  network: ws
-  port: 13548
-  server: sy-gg-02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: sy-gg-02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  network: ws
-  port: 13388
-  server: shanghai-cn2-01.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: shanghai-cn2-01.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
-  network: ws
-  port: 13288
+  port: 13195
   server: guangdong02.ddns-only.xyz
   tls: false
   type: vmess
@@ -88,12 +46,112 @@ proxies:
   ws-headers:
     Host: guangdong02.ddns-only.xyz
   ws-path: /sy666666
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  network: ws
+  port: 30002
+  server: ngzyd-1.okex-tradebot.xyz
+  tls: false
+  type: vmess
+  uuid: 07759579-46af-410d-9522-90015fdee5cd
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  network: ws
+  port: 14420
+  server: hk.proxypools.top
+  tls: false
+  type: vmess
+  uuid: 0c456e0a-7d51-4fb2-a430-7b780edab15e
+  ws-headers:
+    Host: pull.free.video.10010.com
+  ws-path: /
+- name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  password: 65fb4c04-3190-418d-a21e-ecc7b1c39e30
+  port: 54611
+  server: 52.184.33.196
+  type: trojan
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  network: ws
+  port: 30002
+  server: ngzyd-1.okex-tradebot.xyz
+  tls: false
+  type: vmess
+  uuid: 07759579-46af-410d-9522-90015fdee5cd
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  network: ws
+  port: 20001
+  server: cm-jm.okvpn.cc
+  tls: false
+  type: vmess
+  uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8
+  ws-headers:
+    Host: cm-jm.okvpn.cc
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  network: ws
+  port: 30006
+  server: ngzyd-1.okex-tradebot.xyz
+  tls: false
+  type: vmess
+  uuid: 07759579-46af-410d-9522-90015fdee5cd
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+  ws-path: /
+- name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  password: 36333ad7-b527-46ad-b6aa-971a8ae47f42
+  port: 54611
+  server: 52.184.33.196
+  type: trojan
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  network: ws
+  port: 51198
+  server: sy-gg-02.ddns-only.xyz
+  tls: false
+  type: vmess
+  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
+  ws-headers:
+    Host: sy-gg-02.ddns-only.xyz
+  ws-path: /sy666666
+- name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  password: 0c456e0a-7d51-4fb2-a430-7b780edab15e
+  port: 8443
+  server: v1.proxypools.top
+  sni: v1.proxypools.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
+  network: ws
+  port: 443
+  server: vir01.ml
+  tls: true
+  type: vmess
+  uuid: 5260564e-1d3d-4e1e-af02-65553b5ae9b4
+  ws-headers:
+    Host: vir01.ml
+  ws-path: /
 - alterId: 60
   cipher: auto
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   network: ws
   port: 443
-  server: 104.19.45.117
+  server: 104.16.149.48
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
@@ -105,7 +163,7 @@ proxies:
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   network: ws
   port: 443
-  server: www.digitalocean.com
+  server: icook.tw
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
@@ -117,7 +175,7 @@ proxies:
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   network: ws
   port: 443
-  server: 104.20.81.240
+  server: 104.17.36.178
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
@@ -129,31 +187,31 @@ proxies:
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
   network: ws
   port: 443
-  server: 104.25.175.69
+  server: 104.22.3.3
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
   ws-headers:
     Host: qq13.feiclouddd.me
   ws-path: /sadfasf
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
-  network: ws
-  port: 13308
-  server: guangdong02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: guangdong02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 60
+- alterId: 0
   cipher: auto
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
   network: ws
   port: 443
-  server: 104.16.207.196
+  server: 104.20.82.105
+  tls: true
+  type: vmess
+  uuid: e26e8e56-6af6-fe22-d1ed-926650b89c76
+  ws-headers:
+    Host: nsawsrb.mooncloud.bike
+  ws-path: /fokfvws
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  network: ws
+  port: 443
+  server: 172.67.209.58
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
@@ -165,54 +223,6 @@ proxies:
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
   network: ws
   port: 443
-  server: 104.18.8.157
-  tls: true
-  type: vmess
-  uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f
-  ws-headers:
-    Host: vincent-jackson2021.ml
-  ws-path: /The-Great-Awakeningvws
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  network: ws
-  port: 13310
-  server: guanggang-sy-03.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: guanggang-sy-03.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 60
-  cipher: auto
-  name: '[07-30]|oslook 2'
-  network: ws
-  port: 443
-  server: 104.22.3.3
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
-  network: ws
-  port: 443
-  server: 104.16.181.15
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
-  network: ws
-  port: 443
   server: 104.16.192.0
   tls: true
   type: vmess
@@ -220,57 +230,33 @@ proxies:
   ws-headers:
     Host: solitary-violet-aa55.ffhg.workers.dev
   ws-path: /1c0d1093-876e-490f-8a5d-affbb78a79df-vmess
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  network: ws
-  port: 10727
-  server: dmit-03.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: dmit-03.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
-  network: ws
-  port: 10727
-  server: sy-xl110.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: sy-xl110.ddns-only.xyz
-  ws-path: /sy666666
 - alterId: 60
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   network: ws
   port: 443
-  server: 104.20.130.175
+  server: 104.16.148.48
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
   ws-headers:
     Host: qq13.feiclouddd.me
   ws-path: /sadfasf
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  network: ws
-  port: 13320
-  server: guangdong02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: guangdong02.ddns-only.xyz
-  ws-path: /sy666666
 - alterId: 60
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
+  network: ws
+  port: 443
+  server: 104.22.4.180
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
   network: ws
   port: 443
   server: qq13.feiclouddd.me
@@ -280,33 +266,33 @@ proxies:
   ws-headers:
     Host: qq13.feiclouddd.me
   ws-path: /sadfasf
-- alterId: 60
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  password: 20bb05ec-7735-4d04-88c6-7a92eb9a31b2
+  port: 23003
+  server: superstar.hk.03.free.srayx.xyz
+  type: ss
+- name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  password: 5f6ed9ca-ef42-43e8-ab9f-470016bf92e9
+  port: 8443
+  server: v1.proxypools.top
+  sni: v1.proxypools.top
+  type: trojan
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   network: ws
-  port: 443
-  server: 104.17.36.178
-  tls: true
+  port: 13321
+  server: guanggang-sy-03.ddns-only.xyz
+  tls: false
   type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
   ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
-  network: ws
-  port: 443
-  server: qq1-cloud13.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1
-  ws-headers:
-    Host: qq1-cloud13.feiclouddd.me
-  ws-path: /asdfasdf
+    Host: guanggang-sy-03.ddns-only.xyz
+  ws-path: /sy666666
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
   network: ws
   port: 443
   server: 104.16.182.15
@@ -316,84 +302,96 @@ proxies:
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
   network: ws
   port: 443
-  server: vir01.ga
+  server: jp-01.yinriver.top
   tls: true
   type: vmess
-  uuid: 45f72e43-4517-4d05-a9d8-a6ab64dc9d56
+  uuid: 50f86e6f-a7d7-45bc-aa69-f95fc8cf3025
   ws-headers:
-    Host: vir01.ga
+    Host: jp-01.yinriver.top
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
   network: ws
   port: 443
-  server: 104.19.45.117
+  server: 104.20.81.240
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  port: 31572
+  server: 212.102.46.42
+  type: ss
 - alterId: 60
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
   network: ws
   port: 443
-  server: 104.18.135.208
+  server: 104.16.167.138
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
   ws-headers:
     Host: qq13.feiclouddd.me
   ws-path: /sadfasf
-- alterId: 1
+- alterId: 60
   cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  network: ws
-  port: 13319
-  server: guangdong02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: guangdong02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
+  name: 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
   network: ws
   port: 443
-  server: 162.159.211.73
+  server: 1.0.0.0
   tls: true
   type: vmess
-  uuid: 790d2324-0a2c-4d2d-b35c-985c387dbd09
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
   ws-headers:
-    Host: shrill-lake-68c5.ihabney7.workers.dev
-  ws-path: /790d2324-0a2c-4d2d-b35c-985c387dbd09-vmess
-- alterId: 0
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- alterId: 60
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   network: ws
   port: 443
-  server: 162.159.208.93
+  server: 172.67.223.77
   tls: true
   type: vmess
-  uuid: 790d2324-0a2c-4d2d-b35c-985c387dbd09
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
   ws-headers:
-    Host: hidden-bar-4f6d.gvbuie21.workers.dev
-  ws-path: /790d2324-0a2c-4d2d-b35c-985c387dbd09-vmess
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- cipher: aes-256-gcm
+  name: 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  port: 40093
+  server: 2.58.242.131
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
+  network: ws
+  port: 443
+  server: 104.21.76.229
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   network: ws
   port: 443
-  server: 104.16.181.15
+  server: icook.tw
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -405,19 +403,7 @@ proxies:
   name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   network: ws
   port: 443
-  server: 104.16.16.255
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  network: ws
-  port: 443
-  server: 104.20.130.175
+  server: 104.22.4.180
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -426,10 +412,10 @@ proxies:
   ws-path: /
 - alterId: 60
   cipher: auto
-  name: 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
   network: ws
   port: 443
-  server: 172.67.223.77
+  server: 104.21.76.229
   tls: true
   type: vmess
   uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
@@ -448,153 +434,9 @@ proxies:
   ws-headers:
     Host: shy-heart-b4df.v5v5v5.workers.dev
   ws-path: /1c0d1093-876e-490f-8a5d-affbb78a79df-vmess
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  network: ws
-  port: 443
-  server: www.digitalocean.com
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
-  network: ws
-  port: 443
-  server: vir01.ga
-  tls: true
-  type: vmess
-  uuid: 45f72e43-4517-4d05-a9d8-a6ab64dc9d56
-  ws-headers:
-    Host: vir01.ga
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
-  network: ws
-  port: 443
-  server: 104.18.8.157
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
-  network: ws
-  port: 443
-  server: 104.22.44.50
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
-  network: ws
-  port: 443
-  server: 104.16.110.238
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
-  network: ws
-  port: 443
-  server: 198.41.209.5
-  tls: true
-  type: vmess
-  uuid: 1c0d1093-876e-490f-8a5d-affbb78a79df
-  ws-headers:
-    Host: shy-heart-b4df.v5v5v5.workers.dev
-  ws-path: /1c0d1093-876e-490f-8a5d-affbb78a79df-vmess
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  network: ws
-  port: 443
-  server: 104.20.130.43
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 64
-  cipher: auto
-  name: 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  network: ws
-  port: 443
-  server: 1.0.0.0
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  network: ws
-  port: 443
-  server: 104.18.27.64
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  network: ws
-  port: 443
-  server: cdnde.irteyz.today
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  network: ws
-  port: 13542
-  server: sy-gg-02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: sy-gg-02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  network: ws
-  port: 20925
-  server: 103.56.60.37
-  tls: false
-  type: vmess
-  uuid: b8583f26-9717-3f5a-91cf-b48a910344ad
-  ws-headers:
-    Host: 103.56.60.37
-  ws-path: /mfyun.m3u8
-- alterId: 0
-  cipher: auto
-  name: '[07-30]|oslook 3'
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   network: ws
   port: 443
   server: us2.paopao.cf
@@ -604,123 +446,111 @@ proxies:
   ws-headers:
     Host: us2.paopao.cf
   ws-path: /tgzhucaidan
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
-  network: ws
-  port: 13606
-  server: zhonggang-sy01.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: zhonggang-sy01.ddns-only.xyz
-  ws-path: /sy666666
-- name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
-  password: BFJYOPsk
-  port: 443
-  server: a7.ssrsub.one
-  sni: a7.ssrsub.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  network: ws
-  port: 443
-  server: vir01.ml
-  tls: true
-  type: vmess
-  uuid: 5260564e-1d3d-4e1e-af02-65553b5ae9b4
-  ws-headers:
-    Host: vir01.ml
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  network: ws
-  port: 13544
-  server: sy-gg-02.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: sy-gg-02.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
-  network: ws
-  port: 443
-  server: 162.159.209.84
-  tls: true
-  type: vmess
-  uuid: 790d2324-0a2c-4d2d-b35c-985c387dbd09
-  ws-headers:
-    Host: shrill-lake-68c5.ihabney7.workers.dev
-  ws-path: /790d2324-0a2c-4d2d-b35c-985c387dbd09-vmess
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  network: ws
-  port: 443
-  server: 104.16.148.48
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  network: ws
-  port: 443
-  server: 1.0.0.0
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
-  network: ws
-  port: 13600
-  server: zhonggang-sy01.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: zhonggang-sy01.ddns-only.xyz
-  ws-path: /sy666666
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
-  network: ws
-  port: 443
-  server: 104.19.23.24
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  network: ws
-  port: 443
-  server: 104.21.239.147
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
+  network: ws
+  port: 443
+  server: 104.16.181.15
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  network: ws
+  port: 443
+  server: 104.16.110.238
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  network: ws
+  port: 443
+  server: qq13.feiclouddd.me
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
+  network: ws
+  port: 31818
+  server: gz.cm.huitiank.com
+  tls: false
+  type: vmess
+  uuid: 5f6ed9ca-ef42-43e8-ab9f-470016bf92e9
+  ws-headers:
+    Host: pull-flv-l6.douyincdn.com
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
+  network: ws
+  port: 443
+  server: 104.16.207.196
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
+  network: ws
+  port: 2086
+  server: 104.16.148.27
+  tls: false
+  type: vmess
+  uuid: 6d237619-baac-3fcd-acdf-d3383453bb35
+  ws-headers:
+    Host: nj.sb-cloud.cf
+  ws-path: /w421x2bx2za
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
+  network: ws
+  port: 443
+  server: 104.17.188.91
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
+  network: ws
+  port: 443
+  server: 198.41.209.5
+  tls: true
+  type: vmess
+  uuid: 1c0d1093-876e-490f-8a5d-affbb78a79df
+  ws-headers:
+    Host: shy-heart-b4df.v5v5v5.workers.dev
+  ws-path: /1c0d1093-876e-490f-8a5d-affbb78a79df-vmess
+- cipher: aes-256-gcm
+  name: 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  password: J9Y2ncrdPEC38gwydNFFGBna
+  port: 35294
+  server: 2.58.242.131
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
   network: ws
   port: 443
   server: www.92726054.xyz
@@ -730,21 +560,131 @@ proxies:
   ws-headers:
     Host: www.92726054.xyz
   ws-path: /path/310910211916
-- alterId: 64
+- name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  password: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239
+  port: 443
+  server: us2.paopao.cf
+  sni: us2.paopao.cf
+  type: trojan
+- alterId: 2
   cipher: auto
-  name: 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
+  network: ws
+  port: 20011
+  server: 103.56.60.132
+  tls: false
+  type: vmess
+  uuid: b8583f26-9717-3f5a-91cf-b48a910344ad
+  ws-headers:
+    Host: 103.56.60.132
+  ws-path: /mfyun.m3u8
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
   network: ws
   port: 443
-  server: 46.182.107.157
+  server: nn-ssr24.feiclouddd.me
   tls: true
   type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
   ws-headers:
-    Host: www.73345741.xyz
-  ws-path: /footers
+    Host: nn-ssr24.feiclouddd.me
+  ws-path: /dsafasdf
+- alterId: 2
+  cipher: auto
+  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  network: ws
+  port: 10006
+  server: hk3.xxl123.fun
+  tls: false
+  type: vmess
+  uuid: a18e6875-f456-4b24-8c63-ca9084899f4a
+  ws-headers:
+    Host: f932c3d98981b.download.microsoft.com
+  ws-path: /f932c3d98981b
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  network: ws
+  port: 443
+  server: 104.25.104.240
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  network: ws
+  port: 13661
+  server: guangdong02.ddns-only.xyz
+  tls: false
+  type: vmess
+  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
+  ws-headers:
+    Host: guangdong02.ddns-only.xyz
+  ws-path: /sy666666
+- alterId: 1
+  cipher: auto
+  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  network: ws
+  port: 13321
+  server: guanggang-sy-03.ddns-only.xyz
+  tls: false
+  type: vmess
+  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
+  ws-headers:
+    Host: guanggang-sy-03.ddns-only.xyz
+  ws-path: /sy666666
+- alterId: 1
+  cipher: auto
+  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
+  network: ws
+  port: 10025
+  server: hk3.xxl123.fun
+  tls: false
+  type: vmess
+  uuid: a18e6875-f456-4b24-8c63-ca9084899f4a
+  ws-headers:
+    Host: http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com
+  ws-path: /path
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
+  network: ws
+  port: 443
+  server: 104.25.175.69
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
 - alterId: 64
   cipher: auto
-  name: '[07-30]|oslook 4'
+  name: 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
+  port: 26571
+  server: 13.124.66.77
+  tls: false
+  type: vmess
+  uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
+  network: ws
+  port: 443
+  server: hostmonit.com
+  tls: true
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  ws-headers:
+    Host: cdnde.irteyz.today
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   network: ws
   port: 443
   server: 104.18.6.138
@@ -756,79 +696,33 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
   network: ws
   port: 443
-  server: 104.16.149.48
+  server: 104.21.239.147
   tls: true
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  port: 56531
+  server: 13.209.43.110
+  tls: false
+  type: vmess
+  uuid: dca7cafb-0828-465c-b6e7-812b241ad538
+- name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  password: 36333ad7-b527-46ad-b6aa-971a8ae47f42
+  port: 54611
+  server: iplc1.node.zeroteam.top
+  sni: iplc1.node.zeroteam.top
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  network: ws
-  port: 443
-  server: www.garmin.com
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  network: ws
-  port: 443
-  server: 104.18.7.138
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  network: ws
-  port: 443
-  server: 104.18.8.157
-  tls: true
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  ws-headers:
-    Host: cdnde.irteyz.today
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  network: ws
-  port: 443
-  server: 104.16.16.255
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  network: ws
-  port: 443
-  server: 104.22.4.180
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 64
-  cipher: auto
-  name: 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
+  name: 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   network: ws
   port: 443
   server: 172.67.209.58
@@ -838,177 +732,149 @@ proxies:
   ws-headers:
     Host: cdnde.irteyz.today
   ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  network: ws
-  port: 13604
-  server: zhonggang-sy01.ddns-only.xyz
-  tls: false
-  type: vmess
-  uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4
-  ws-headers:
-    Host: zhonggang-sy01.ddns-only.xyz
-  ws-path: /sy666666
-- cipher: aes-256-gcm
-  name: 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 5.188.230.247
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1017,387 +883,362 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - name: 📢 谷歌FCM
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1420,78 +1261,73 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
   - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
-  - '[07-30]|oslook'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Huangpu/小东的程序未能精准识别(可能是中转节点)
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 6
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Francisco
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 4
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 5
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 5
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 6
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 6
-  - '[07-30]|oslook 2'
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 8
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 7
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 7
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 11
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Seattle
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 12
+  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 13
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 8
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 14
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 15
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 16
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 17
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 18
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 2
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 19
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 3
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Nanjing/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 20
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 21
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 22
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 23
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Dallas
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 9
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangyuan/小东的程序未能精准识别(可能是中转节点)
-  - '[07-30]|oslook 3'
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇨🇳 [07-30]|oslook|中国台湾(TW)Taiwan/Taichung 2
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 2
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 4
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Zhenjiang/小东的程序未能精准识别(可能是中转节点)
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 24
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 8
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 9
+  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 25
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点) 10
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Newark 3
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Seoul
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 26
-  - 🇦🇺 [07-30]|oslook|澳大利亚(AU)Australia/South Brisbane 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 3
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 27
   - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 28
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/San Pablo
-  - 🇳🇱 [07-30]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[07-30]|oslook 4'
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 29
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 30
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 31
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 32
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 33
-  - 🇺🇸 [07-30]|oslook|美国(US)USA/Chicago 34
-  - 🇯🇵 [07-30]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾(CN)China/Pudong/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇦🇷 [07-30]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇰🇷 [07-30]|oslook|韩国(KR)Korea/Incheon
+  - 🇭🇰 [07-30]|oslook|中国香港/中国台湾中国(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [07-30]|oslook|美国(US)USA/Ashburn 3
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
