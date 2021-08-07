@@ -1,9 +1,8 @@
-port: 7890
-socks-port: 7891
 allow-lan: true
-mode: Rule
-log-level: info
 external-controller: :9090
+log-level: info
+mode: Rule
+port: 7890
 proxies:
 - name: https://git.io/v9999 莫斯科
   type: vmess
@@ -31,756 +30,756 @@ proxies:
     Host: ''
 proxy-groups:
 - name: 🔰 节点选择
-  type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: ♻️ 自动选择
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
+  - https://git.io/v9999 莫斯科
+  - https://git.io/v9999 荷兰
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
-  - https://git.io/v9999 莫斯科
-  - https://git.io/v9999 荷兰
 - name: 🌍 国外媒体
-  type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: 🌏 国内媒体
-  type: select
   proxies:
   - 🎯 全球直连
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🔰 节点选择
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: Ⓜ️ 微软服务
-  type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 - name: 📲 电报信息
-  type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🍎 苹果服务
   type: select
+- name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🎯 全球直连
   type: select
+- name: 🎯 全球直连
   proxies:
   - DIRECT
-- name: 🛑 全球拦截
   type: select
+- name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
-- name: 🐟 漏网之鱼
   type: select
+- name: 🐟 漏网之鱼
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-  - 🇬🇧 https://www.mattkaydiary.com|日本(JP)Japan/Shinjuku
-  - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Osaka
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-  - 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 2
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/さいたま市 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 6
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 7
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 8
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 9
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 10
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 11
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 12
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 13
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 14
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 15
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 16
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 17
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 18
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 19
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 20
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 21
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 22
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 23
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 24
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 25
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 4
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 5
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver 6
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Jose
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 4
-  - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 26
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 2
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Orlando
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 3
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Flushing 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan
-  - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco 27
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 3
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 3
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Rome 2
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 5
-  - 🇮🇹 https://www.mattkaydiary.com|意大利(IT)Italy/Milan 4
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 2
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin 6
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 3
-  - 🇩🇰 https://www.mattkaydiary.com|丹麦(DK)Denmark/Copenhagen
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 4
-  - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Manchester 4
-  - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 5
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 6
-  - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Falkenstein
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 2
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty
-  - https://www.mattkaydiary.com|哈萨克斯坦(KZ)Kazakstan/Almaty 2
-  - 🇸🇪 https://www.mattkaydiary.com|瑞典(SE)Sweden/Stockholm 2
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 3
-  - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris 7
-  - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/Chatswood
-  - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver 3
-  - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo
+  - 🇬🇧 [08-06]|oslook|日本(JP)Japan/Shinjuku
+  - 🇦🇷 [08-06]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Osaka
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore
+  - 🇭🇰 [08-06]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 2
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/さいたま市 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 6
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 7
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 8
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 9
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 10
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 11
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 12
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 13
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 14
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 15
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 16
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 17
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 18
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 19
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 20
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 21
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 22
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 23
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 24
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 25
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 4
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 5
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Los Angeles 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Denver 6
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Jose
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 4
+  - 🇯🇵 [08-06]|oslook|日本(JP)Japan/Tokyo 2
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 26
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 2
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Orlando
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 3
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/Flushing 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan
+  - 🇺🇸 [08-06]|oslook|美国(US)USA/San Francisco 27
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 3
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/London
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Rome 2
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 5
+  - 🇮🇹 [08-06]|oslook|意大利(IT)Italy/Milan 4
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 2
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Berlin 6
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 3
+  - 🇩🇰 [08-06]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 4
+  - 🇬🇧 [08-06]|oslook|英国(GB)United Kiongdom/Manchester 4
+  - 🇳🇱 [08-06]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 5
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 6
+  - 🇩🇪 [08-06]|oslook|德国(DE)Germany/Falkenstein
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 2
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty'
+  - '[08-06]|oslook|哈萨克斯坦(KZ)Kazakstan/Almaty 2'
+  - 🇸🇪 [08-06]|oslook|瑞典(SE)Sweden/Stockholm 2
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 3
+  - 🇫🇷 [08-06]|oslook|法国(FR)France/Paris 7
+  - 🇦🇺 [08-06]|oslook|澳大利亚(AU)Australia/Chatswood
+  - 🇨🇦 [08-06]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇸🇬 [08-06]|oslook|新加坡(SG)Singapore/Singapore 4
   - https://git.io/v9999 莫斯科
   - https://git.io/v9999 荷兰
+  type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10827,3 +10826,6 @@ rules:
 - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
+- DOMAIN-SUFFIX,dyndns.com,🎯 全球直连
+- DOMAIN-SUFFIX,dyndns.org,🎯 全球直连
+socks-port: 7891
