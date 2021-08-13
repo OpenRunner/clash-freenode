@@ -6,7 +6,7 @@
 - 请勿滥用🚫
 
 ## Clash 订阅地址
-**注意：资源来自互联网，仅做优选和收集**
+*注意：资源来自互联网，仅做优选和收集*
 
  https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
  
