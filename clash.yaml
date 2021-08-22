@@ -6,44 +6,12 @@ port: 7890
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
-  port: 10089
-  server: jsyd01.bellscloud.com
-  tls: false
-  type: vmess
-  uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757
-- alterId: 1
-  cipher: auto
   name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  network: ws
-  port: 31014
-  server: zzg1.uuv2.co.uk
-  tls: true
-  type: vmess
-  uuid: e62b33ef-a6f7-46f4-999b-353cfe1d404b
-  ws-headers:
-    Host: jp2.uuv2.uk
-  ws-path: /@mftizi
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  port: 10087
-  server: jsyd01.bellscloud.com
+  port: 30017
+  server: gzyd.potatofly.xyz
   tls: false
   type: vmess
-  uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
-  network: ws
-  port: 11115
-  server: global-transit-01-hk.pucdn.me
-  tls: false
-  type: vmess
-  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
-  ws-headers:
-    Host: l2-hkt-a-08.pucdn.me
-  ws-path: /vvv
+  uuid: 9420992f-4b14-35ff-9d2e-81d2ebe7693e
 - alterId: 1
   cipher: auto
   name: 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
@@ -59,179 +27,11 @@ proxies:
 - alterId: 2
   cipher: auto
   name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  network: ws
-  port: 40105
-  server: 13.75.90.56
+  port: 30018
+  server: gzyd.potatofly.xyz
   tls: false
   type: vmess
-  uuid: 130b7524-f6b5-4708-ac23-114803497e5d
-  ws-headers:
-    Host: 13.75.90.56
-  ws-path: /adobe
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  network: ws
-  port: 80
-  server: 13.94.62.35
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  network: ws
-  port: 80
-  server: 23.99.103.85
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  network: ws
-  port: 80
-  server: 168.63.203.166
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  network: ws
-  port: 80
-  server: 13.75.115.149
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  network: ws
-  port: 60017
-  server: 52.175.79.113
-  tls: false
-  type: vmess
-  uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
-  ws-headers:
-    Host: 52.175.79.113
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  network: ws
-  port: 80
-  server: 207.46.158.82
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  network: ws
-  port: 80
-  server: 23.97.66.204
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  network: ws
-  port: 60016
-  server: 52.175.79.113
-  tls: false
-  type: vmess
-  uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
-  ws-headers:
-    Host: 52.175.79.113
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  network: ws
-  port: 62317
-  server: 120.232.174.117
-  tls: false
-  type: vmess
-  uuid: f748ee95-a216-46b4-8666-a4a6a9209277
-  ws-headers:
-    Host: 120.232.174.117
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  network: ws
-  port: 80
-  server: 207.46.156.250
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  port: 10092
-  server: jsyd01.bellscloud.com
-  tls: false
-  type: vmess
-  uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757
-- alterId: 1
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  network: ws
-  port: 21824
-  server: 120.232.174.117
-  tls: false
-  type: vmess
-  uuid: f748ee95-a216-46b4-8666-a4a6a9209277
-  ws-headers:
-    Host: 120.232.174.117
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  network: ws
-  port: 443
-  server: 162.159.208.93
-  tls: true
-  type: vmess
-  uuid: 790d2324-0a2c-4d2d-b35c-985c387dbd09
-  ws-headers:
-    Host: hidden-bar-4f6d.gvbuie21.workers.dev
-  ws-path: /790d2324-0a2c-4d2d-b35c-985c387dbd09-vmess
-- alterId: 1
-  cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
-  network: ws
-  port: 55456
-  server: zzg1.uuv2.co.uk
-  tls: true
-  type: vmess
-  uuid: ade39f1c-dcdf-43ee-88b4-23d388326881
-  ws-headers:
-    Host: kr02.uuv2.uk
-  ws-path: /@mftizi
+  uuid: 9420992f-4b14-35ff-9d2e-81d2ebe7693e
 - alterId: 1
   cipher: auto
   name: 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
@@ -239,27 +39,13 @@ proxies:
   server: c.ddvsmvbfnbsde.tk
   tls: true
   type: vmess
-  uuid: f3e52136-6b77-460f-b06c-4f3d67c8426b
-- alterId: 60
-  cipher: auto
+  uuid: 2ca94067-30de-4aa8-b98d-a679847a9d0a
+- cipher: chacha20-ietf-poly1305
   name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  network: ws
-  port: 443
-  server: 107.182.185.112
-  tls: true
-  type: vmess
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  ws-path: /sadfasf
-- alterId: 0
-  cipher: auto
-  name: '[08-22]|oslook'
-  port: 16823
-  server: 45.144.242.218
-  tls: false
-  type: vmess
-  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18334
+  server: 154.17.2.142
+  type: ss
 - alterId: 1
   cipher: auto
   name: 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
@@ -270,26 +56,100 @@ proxies:
   type: vmess
   uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
   ws-headers:
-    Host: sg-08.yinriver.top
+    Host: sg-01.yinriver.top
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18333
+  server: 154.17.2.160
+  type: ss
+- alterId: 60
+  cipher: auto
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
+  network: ws
+  port: 443
+  server: 107.182.185.112
+  tls: true
+  type: vmess
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  ws-headers:
+    Host: qq13.feiclouddd.me
+  ws-path: /sadfasf
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx
+  port: 18333
+  server: 154.17.2.54
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
   password: YyCBeDdYX4cadHpCkkmdJLq8
   port: 43893
-  server: 84.17.41.83
+  server: 192.111.134.222
   type: ss
 - alterId: 1
   cipher: auto
-  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
+  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
   network: ws
-  port: 60023
+  port: 60017
   server: 52.175.79.113
   tls: false
   type: vmess
   uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
   ws-headers:
-    Host: t.me/vpnhat
+    Host: 52.175.79.113
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  port: 16823
+  server: 45.144.242.218
+  tls: false
+  type: vmess
+  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9
+  port: 18332
+  server: 154.17.2.211
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18333
+  server: 154.17.2.31
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  network: ws
+  port: 5201
+  server: zza1.uuv2.uk
+  tls: true
+  type: vmess
+  uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee
+  ws-headers:
+    Host: jp01.uuv2.uk
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18334
+  server: 154.17.1.245
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
+  password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB
+  port: 18335
+  server: 154.17.2.112
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  port: 31944
+  server: 199.10.64.245
+  type: ss
 - alterId: 1
   cipher: auto
   name: 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
@@ -297,99 +157,113 @@ proxies:
   server: c.ddvsmvbfnbsde.tk
   tls: true
   type: vmess
-  uuid: 2ca94067-30de-4aa8-b98d-a679847a9d0a
-- alterId: 8
+  uuid: f3e52136-6b77-460f-b06c-4f3d67c8426b
+- cipher: aes-256-gcm
+  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  port: 33992
+  server: 208.78.41.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18333
+  server: 154.17.2.135
+  type: ss
+- alterId: 0
   cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  port: 26813
-  server: c32s4.jamjams.net
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  network: ws
+  port: 54041
+  server: 89.208.249.186
   tls: false
   type: vmess
-  uuid: e3f9279a-5037-447b-870c-8d512c32f979
-- alterId: 1
-  cipher: auto
-  name: '[08-22]|oslook 2'
-  network: ws
-  port: 443
-  server: 104.21.67.220
-  tls: true
-  type: vmess
-  uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
+  uuid: af3a2a0a-7326-49f7-9bb6-513b433425c3
   ws-headers:
-    Host: sg-01.yinriver.top
+    Host: 89.208.249.186
   ws-path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 185.242.5.147
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  port: 30005
+  server: hnlt.potatofly.xyz
+  tls: false
+  type: vmess
+  uuid: 9420992f-4b14-35ff-9d2e-81d2ebe7693e
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  port: 16823
+  server: 45.144.242.232
+  tls: false
+  type: vmess
+  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
 - cipher: aes-256-gcm
   name: 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
   password: 4ejJ8n5ddLuYDUHGXJre2ufJ
   port: 48938
   server: 212.102.44.86
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  port: 10095
-  server: jsyd01.bellscloud.com
-  tls: false
-  type: vmess
-  uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  port: 10090
-  server: jsyd01.bellscloud.com
-  tls: false
-  type: vmess
-  uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj
+  port: 18335
+  server: 154.17.2.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  port: 18333
+  server: 154.17.2.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3
+  port: 18333
+  server: 154.17.2.117
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   password: 4ejJ8n5ddLuYDUHGXJre2ufJ
   port: 48938
   server: 198.8.92.69
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  server: 208.78.41.197
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  server: 84.17.41.83
   type: ss
-- alterId: 8
-  cipher: auto
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  port: 10606
-  server: 199.193.126.11
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-- alterId: 64
-  cipher: auto
-  name: '[08-22]|oslook 3'
-  network: ws
-  port: 443
-  server: 198.211.30.163
-  tls: true
-  type: vmess
-  uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d
-  ws-headers:
-    Host: www.93289686.xyz
-  ws-path: /path/310910211916
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  network: ws
-  port: 446
-  server: jp03-vm0.ikuuu.casa
-  tls: false
-  type: vmess
-  uuid: e0ccdb77-afd1-32e5-81ad-6c2c2f4fc9b3
-  ws-headers:
-    Host: jp03-vm0.ikuuu.casa
-  ws-path: /hls/cctv5phd.m3u8
+- cipher: aes-256-gcm
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 84.17.41.77
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  password: CUndSZnYsPKcu6Kj8THVMBHD
+  port: 39772
+  server: 193.29.106.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 104.244.208.205
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  port: 31944
+  server: 138.199.9.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  port: 48938
+  server: 185.93.180.101
+  type: ss
 - alterId: 8
   cipher: auto
   name: 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
@@ -399,56 +273,78 @@ proxies:
   type: vmess
   uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
 - cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 172.241.114.87
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 185.242.5.149
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-  port: 49396
-  server: 192.111.134.212
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 198.8.92.74
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  password: J9Y2ncrdPEC38gwydNFFGBna
-  port: 35294
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  password: r6hDrkP4Et6EENTS8Qy7Tcmg
+  port: 44539
   server: 199.10.64.245
   type: ss
+- alterId: 8
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  port: 10606
+  server: 104.245.96.219
+  tls: false
+  type: vmess
+  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
+- alterId: 8
+  cipher: auto
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
+  port: 10606
+  server: 199.193.126.11
+  tls: false
+  type: vmess
+  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
 - cipher: aes-256-gcm
-  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  password: CUndSZnYsPKcu6Kj8THVMBHD
-  port: 39772
-  server: 217.138.219.227
+  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 185.232.21.51
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  password: r6hDrkP4Et6EENTS8Qy7Tcmg
+  port: 44539
+  server: 104.244.211.171
   type: ss
 - alterId: 1
   cipher: auto
-  name: '[08-22]|oslook 4'
+  name: 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
   network: ws
-  port: 8888
-  server: 3.122.94.12
-  tls: false
+  port: 5401
+  server: zza1.uuv2.uk
+  tls: true
   type: vmess
-  uuid: 40ab20f8-d670-4f3e-99fc-0de0829ab87c
+  uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee
   ws-headers:
-    Host: 3.122.94.12
-  ws-path: /
+    Host: kr02.uuv2.uk
+  ws-path: /@mftizi
 - alterId: 64
   cipher: auto
   name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
+  network: ws
+  port: 443
+  server: 46.182.107.93
+  tls: true
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+  ws-headers:
+    Host: www.54872833.xyz
+  ws-path: /footers
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
+  network: ws
+  port: 443
+  server: 46.182.107.157
+  tls: true
+  type: vmess
+  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  ws-headers:
+    Host: www.73345741.xyz
+  ws-path: /footers
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
   network: ws
   port: 443
   server: 46.182.107.146
@@ -458,6 +354,30 @@ proxies:
   ws-headers:
     Host: www.44590130.xyz
   ws-path: /footers
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
+  network: ws
+  port: 443
+  server: v2raylpc.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  ws-headers:
+    Host: v2raylpc.herokuapp.com
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
+  network: ws
+  port: 8888
+  server: 3.122.94.12
+  tls: false
+  type: vmess
+  uuid: 40ab20f8-d670-4f3e-99fc-0de0829ab87c
+  ws-headers:
+    Host: 3.122.94.12
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
@@ -470,159 +390,11 @@ proxies:
   ws-headers:
     Host: v2raylpc.herokuapp.com
   ws-path: /
-- alterId: 60
-  cipher: auto
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
-  network: ws
-  port: 443
-  server: nn-ssr4.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
-  ws-headers:
-    Host: nn-ssr4.feiclouddd.me
-  ws-path: /sadfasdf
 - cipher: aes-256-gcm
-  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
-  password: suucSeVLmt6PQKAP77NtGw9x
-  port: 49339
-  server: 193.29.106.37
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 37.120.143.117
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
-  network: ws
-  port: 443
-  server: 46.182.107.90
-  tls: true
-  type: vmess
-  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
-  ws-headers:
-    Host: www.15770282.xyz
-  ws-path: /path/283431252216
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  network: ws
-  port: 443
-  server: 46.182.107.157
-  tls: true
-  type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
-  ws-headers:
-    Host: www.73345741.xyz
-  ws-path: /footers
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  network: ws
-  port: 443
-  server: 46.182.107.44
-  tls: true
-  type: vmess
-  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
-  ws-headers:
-    Host: www.68737987.xyz
-  ws-path: /footers
-- cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 91.245.254.107
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  port: 80
-  server: 3.36.96.175
-  tls: true
-  type: vmess
-  uuid: 2ca94067-30de-4aa8-b98d-a679847a9d0a
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  port: 16823
-  server: 152.89.211.123
-  tls: false
-  type: vmess
-  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
-- cipher: aes-256-gcm
-  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 89.238.130.253
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 185.232.21.53
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  password: CUndSZnYsPKcu6Kj8THVMBHD
-  port: 39772
-  server: 193.29.106.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  password: DKXfWwc4ebscpXTKpbt85rSH
-  port: 38742
-  server: 89.46.223.189
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  network: ws
-  port: 80
-  server: 54.169.80.57
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 194.110.115.77
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 82.102.16.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
-  port: 50168
-  server: 212.102.44.83
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  network: ws
-  port: 80
-  server: 54.169.97.167
-  tls: false
-  type: vmess
-  uuid: 0821b208-8675-43e8-bbed-8afac1e391a1
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 86.106.136.85
+  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  password: NHwQTPLCfaTMSqTnU3mjcSxe
+  port: 33998
+  server: 185.128.27.35
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
@@ -631,132 +403,94 @@ proxies:
   server: 89.238.130.227
   type: ss
 - cipher: aes-256-gcm
+  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  server: 82.102.16.99
+  type: ss
+- cipher: aes-256-gcm
   name: 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
   password: 4ejJ8n5ddLuYDUHGXJre2ufJ
   port: 48938
-  server: 217.138.207.251
+  server: 45.89.174.83
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  port: 16823
+  server: 147.78.12.75
+  tls: false
+  type: vmess
+  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
 - cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
+  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
   password: YyCBeDdYX4cadHpCkkmdJLq8
   port: 43893
-  server: 86.106.90.27
+  server: 104.244.211.141
   type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  password: enctdKyJfSu76VqznKwTt6Ap
-  port: 37473
-  server: 84.17.58.205
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
-  password: suucSeVLmt6PQKAP77NtGw9x
-  port: 49339
-  server: 217.138.211.219
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 185.93.180.101
-  type: ss
-- cipher: aes-256-gcm
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
+  network: ws
+  port: 443
+  server: 154.84.1.51
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-headers:
+    Host: www.04887294.xyz
+  ws-path: /path/310910211916
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
+  port: 16823
+  server: 152.89.211.123
+  tls: false
+  type: vmess
+  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
+- alterId: 0
+  cipher: auto
   name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  port: 16823
+  server: 185.105.191.23
+  tls: false
+  type: vmess
+  uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  network: ws
+  port: 443
+  server: 46.182.107.94
+  tls: true
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+  ws-headers:
+    Host: www.54872833.xyz
+  ws-path: /footers
+- cipher: aes-256-gcm
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
   password: n8w4StnbVD9dmXYn4Ajt87EA
   port: 31572
   server: 217.146.82.83
   type: ss
 - cipher: aes-256-gcm
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
-  port: 50168
-  server: 89.46.223.239
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  password: CUndSZnYsPKcu6Kj8THVMBHD
-  port: 39772
-  server: 193.29.106.61
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  password: LkFAzkzXkSCRYa2CsRdL8cGb
-  port: 34815
-  server: 185.108.106.102
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  password: CUndSZnYsPKcu6Kj8THVMBHD
-  port: 39772
-  server: 185.166.84.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  password: YgusH2MWA8PWc3p2VDsR7AVv
-  port: 31764
-  server: 81.19.223.189
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-  port: 49396
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  port: 48938
   server: 84.39.114.86
   type: ss
 - cipher: aes-256-gcm
   name: 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 45.89.174.83
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  password: dpGjA4GkzV28QPDYzEp94cTe
-  port: 49514
-  server: 194.110.115.83
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
-  port: 33998
-  server: 185.128.27.35
-  type: ss
-- alterId: 8
-  cipher: auto
-  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  port: 10606
-  server: 104.245.96.219
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-- cipher: aes-256-gcm
-  name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
-  server: 198.8.92.79
+  server: 84.247.51.251
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 185.108.106.53
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  network: ws
-  port: 443
-  server: 172.67.182.11
-  tls: true
-  type: vmess
-  uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875
-  ws-headers:
-    Host: us-03.yinriver.top
-  ws-path: /
-- cipher: aes-256-gcm
-  name: '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
-  password: yUXad7DGF8L5cTShEpnp2N6z
-  port: 36460
-  server: 194.41.112.28
+  name: 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  port: 50168
+  server: 89.46.223.239
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
@@ -765,34 +499,88 @@ proxies:
   server: 45.12.222.245
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
+  name: 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 37.120.213.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  password: YgusH2MWA8PWc3p2VDsR7AVv
+  port: 31764
+  server: 81.19.223.189
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  server: 84.17.53.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
+  password: p26v2JwhQVHDHsXk66fXt56r
+  port: 42304
+  server: 185.217.71.51
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  port: 31944
+  server: 89.238.143.101
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  password: txmK9WhwP6WPhP7hqSBLVxpN
+  port: 34687
+  server: 193.29.107.125
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  server: 185.108.106.53
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 37.120.143.117
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 217.138.211.221
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 193.29.106.37
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
   password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   port: 33992
-  server: 185.166.84.87
+  server: 185.108.106.102
+  type: ss
+- cipher: aes-256-gcm
+  name: '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  password: yUXad7DGF8L5cTShEpnp2N6z
+  port: 36460
+  server: 194.41.112.28
   type: ss
 - cipher: aes-128-gcm
   name: 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
   password: https://dlj.tf/ssrsub
   port: 2443
-  server: 45.62.228.191
+  server: 142.47.221.6
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  server: 217.138.219.229
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  server: 89.238.143.101
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
-  password: YyCBeDdYX4cadHpCkkmdJLq8
-  port: 43893
-  server: 45.248.79.19
+  name: 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
+  password: CUndSZnYsPKcu6Kj8THVMBHD
+  port: 39772
+  server: 217.138.219.227
   type: ss
 - cipher: aes-256-gcm
   name: 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
@@ -801,212 +589,232 @@ proxies:
   server: 185.108.106.74
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
-  password: r6hDrkP4Et6EENTS8Qy7Tcmg
-  port: 44539
-  server: 138.199.16.137
+  name: 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 103.192.80.133
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 103.192.80.235
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  password: Pvvaw486867D2w4yctL2ULTQ
+  port: 40282
+  server: 45.134.224.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  port: 48938
+  server: 103.192.80.11
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  port: 48938
+  server: 86.106.136.85
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  network: ws
+  port: 8888
+  server: 46.101.28.98
+  tls: false
+  type: vmess
+  uuid: 40ab20f8-d670-4f3e-99fc-0de0829ab87c
+  ws-headers:
+    Host: 46.101.28.98
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
+  password: X6yMGXnfUsuKTvEDYZSLPk4d
+  port: 41738
+  server: 143.244.57.99
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1015,507 +823,452 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - name: 📢 谷歌FCM
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1538,102 +1291,91 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点)
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)
   - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo
   - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 6
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 7
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 8
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 9
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 10
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 11
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 3
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点) 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 12
   - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles
-  - '[08-22]|oslook'
   - 🇺🇸 [08-22]|oslook|美国(US)USA/San Francisco
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
-  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 13
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
-  - '[08-22]|oslook 2'
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 4
-  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Suzhou/小东的程序未能精准识别(可能是中转节点) 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 2
-  - '[08-22]|oslook 3'
-  - 🇯🇵 [08-22]|oslook|日本(JP)Japan/Tokyo 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Dallas
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Las Vegas 2
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 3
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 5
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 6
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 7
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 8
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 4
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 9
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 10
   - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
-  - '[08-22]|oslook 4'
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Atlanta
+  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 2
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 11
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 12
+  - 🇭🇰 [08-22]|oslook|中国香港/中国台湾(CN)China/Guangzhou/小东的程序未能精准识别(可能是中转节点)
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 13
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 14
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 15
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 16
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 2
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Seattle 2
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Flushing
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 17
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Fremont
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Houston 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Los Angeles 18
   - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit
+  - 🇦🇷 [08-22]|oslook|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 5
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 2
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 3
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 4
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal
-  - 🇰🇷 [08-22]|oslook|韩国(KR)Korea/Incheon 3
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 3
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Denver 2
-  - 🇸🇬 [08-22]|oslook|新加坡(SG)Singapore/Singapore 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Montreal 2
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn
   - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
-  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem 2
-  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
-  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
-  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 4
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 3
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Ashburn 2
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Frankfurt am Main 3
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 5
+  - 🇺🇸 [08-22]|oslook|美国(US)USA/Detroit 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 6
   - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 7
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Vancouver 4
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
-  - 🇺🇸 [08-22]|oslook|美国(US)USA/Chicago
-  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Amsterdam 8
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 2
+  - 🇳🇱 [08-22]|oslook|荷兰(NL)Netherlands/Haarlem
   - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 2
-  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
-  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 4
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 3
+  - 🇨🇭 [08-22]|oslook|瑞士(CH)Switzerland/Zürich 3
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Rome
   - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Stretford 2
-  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Adelaide
+  - 🇩🇰 [08-22]|oslook|丹麦(DK)Denmark/Copenhagen
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Brussels 2
+  - 🇧🇪 [08-22]|oslook|比利时(BE)Belgium/Zaventem
+  - 🇩🇪 [08-22]|oslook|德国(DE)Germany/Berlin 2
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 2
+  - '[08-22]|oslook|墨西哥(MX)Mexico/Mexico City'
+  - 🇨🇦 [08-22]|oslook|加拿大(CA)Canada/Toronto
+  - 🇮🇹 [08-22]|oslook|意大利(IT)Italy/Milan 2
   - 🇫🇷 [08-22]|oslook|法国(FR)France/Bordeaux 3
-  - 🇫🇷 [08-22]|oslook|法国(FR)France/Marseille 3
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 2
+  - 🇵🇭 [08-22]|oslook|菲律宾(PH)Philippines/Santa Cruz
+  - 🇦🇺 [08-22]|oslook|澳大利亚(AU)Australia/Melbourne 3
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/Manchester 2
+  - 🇬🇧 [08-22]|oslook|英国(GB)United Kiongdom/London 4
+  - 🇫🇷 [08-22]|oslook|法国(FR)France/Paris 3
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
