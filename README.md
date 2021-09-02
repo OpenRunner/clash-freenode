@@ -23,3 +23,7 @@
 本项目遵循 GNU General Public License v3.0 开源，在此基础上，所有使用本项目提供服务者都必须在网站首页保留指向本项目的链接
 
 本项目仅限**个人使用**，禁止使用本项目进行营利和做其他违法事情，产生的一切后果本项目概不负责
+
+## 支持一下
+- ETH: `0x23A0E101Feca22c95095717e666CC48402dDd6aC`
+- BTC: `321VGXWfmE3r4VsHjp4J7TvLCyTguvHvFn`
