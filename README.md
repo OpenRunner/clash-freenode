@@ -24,6 +24,8 @@
 
 本项目仅限**个人使用**，禁止使用本项目进行营利和做其他违法事情，产生的一切后果本项目概不负责
 
-## 支持一下
-- ETH: [0x23A0E101Feca22c95095717e666CC48402dDd6aC](eth:0x23A0E101Feca22c95095717e666CC48402dDd6aC)
-- BTC: [321VGXWfmE3r4VsHjp4J7TvLCyTguvHvFn](bitcoin:321VGXWfmE3r4VsHjp4J7TvLCyTguvHvFn)
+## 捐赠
+您的支持是我们最大的鼓励！
+
+- ETH以太币: `0x23A0E101Feca22c95095717e666CC48402dDd6aC`
+- BTC比特币: `321VGXWfmE3r4VsHjp4J7TvLCyTguvHvFn`
