@@ -8,85 +8,25 @@ proxies:
   cipher: auto
   name: '[10-12]|oslook|日本JPJapan/Tokyo_1'
   network: ws
-  port: 22
+  port: 88
   server: jp.52jjyun.top
   tls: false
   type: vmess
-  uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3
+  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
   ws-path: /jjyun
-- alterId: 1
+- alterId: 10
   cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_2'
+  name: '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
   network: ws
-  port: 80
-  server: jp2.np.qjnodeip.xyz
+  port: 88
+  server: hkml.jjyun.ren
   tls: false
   type: vmess
-  uuid: 02c05e4c-3092-41e3-be4b-b49e9acbab21
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_3'
-  network: ws
-  port: 80
-  server: jp2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: de25d7e1-9aef-45ae-a733-df1db2809fc2
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_4'
-  network: ws
-  port: 80
-  server: jp2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 899d5b16-657f-4c23-b7da-e0592b5fa769
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_5'
-  network: ws
-  port: 80
-  server: jp2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 85e144b0-262a-4c01-b39c-fdd762682b1f
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_6'
-  network: ws
-  port: 80
-  server: jp2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: b96e61d5-b7a1-4c3a-be22-59bd81e06b9e
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  network: ws
-  port: 80
-  server: kr1.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 85e144b0-262a-4c01-b39c-fdd762682b1f
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  network: ws
-  port: 80
-  server: kr2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: b96e61d5-b7a1-4c3a-be22-59bd81e06b9e
-  ws-path: /index
+  uuid: c8191e5d-c551-4896-8d57-7493da874557
+  ws-path: /jjyun
 - alterId: 0
   cipher: auto
-  name: '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  name: '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
   network: ws
   port: 443
   server: 18.163.112.47
@@ -96,21 +36,9 @@ proxies:
   ws-headers:
     Host: gd.189.cn
   ws-path: /TS/recharge/tzUrl.html
-- alterId: 64
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/San Francisco_10'
-  network: ws
-  port: 443
-  server: 104.17.251.27
-  tls: true
-  type: vmess
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  ws-headers:
-    Host: calm-snow-beb3.6663901.workers.dev
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
+  name: '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
   network: ws
   port: 443
   server: 1.1.1.13
@@ -120,83 +48,81 @@ proxies:
   ws-headers:
     Host: ccc.1808.cf
   ws-path: /v2rayvws?ed=2048
-- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  port: 8443
-  server: t7.ssrsub.com
-  type: trojan
-- name: '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  port: 8443
-  server: t1.ssrsub.com
-  type: trojan
 - alterId: 1
   cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_14'
+  name: '[10-12]|oslook|美国USUSA/San Jose_5'
   network: ws
   port: 80
-  server: jp2.np.qjnodeip.xyz
+  server: 54.193.184.138
   tls: false
   type: vmess
-  uuid: 2d2a3011-8e42-4542-bdbd-fae085fe22e1
-  ws-path: /index
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Osaka_15'
-  network: tcp
-  port: 10606
-  server: c39s4.jamjams.net
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-headers:
-    Host: c39s4.jamjams.net
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
+  name: '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
   network: ws
   port: 158
-  server: v7.ssrsub.com
+  server: v3.ssrsub.com
   tls: true
   type: vmess
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
   ws-path: /ssrsub
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  network: ws
-  port: 158
-  server: v1.ssrsub.com
-  tls: true
-  type: vmess
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  ws-path: /ssrsub
-- alterId: 16
-  cipher: auto
-  name: '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  network: ws
-  port: 80
-  server: 152.67.201.196
-  tls: false
-  type: vmess
-  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
-  ws-path: /ben
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  network: tcp
-  port: 10606
-  server: c39s3.jamjams.net
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
 - alterId: 1
   cipher: auto
-  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
+  name: '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  network: ws
+  port: 80
+  server: 66.42.107.33
+  tls: false
+  type: vmess
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  network: ws
+  port: 443
+  server: inap.qqnz.com.cn
+  tls: true
+  type: vmess
+  uuid: a8f3742c-4422-4943-9293-3ea618a846df
+  ws-path: /IJPCL0JG
+- alterId: 10
+  cipher: auto
+  name: '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  network: ws
+  port: 88
+  server: ruml.jjyun.ren
+  tls: false
+  type: vmess
+  uuid: c8191e5d-c551-4896-8d57-7493da874557
+  ws-path: /jjyun
+- alterId: 16
+  cipher: auto
+  name: '[10-12]|oslook|美国USUSA/San Jose_10'
+  network: ws
+  port: 80
+  server: 150.230.43.190
+  tls: false
+  type: vmess
+  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
+  ws-headers:
+    Host: 150.230.43.190
+  ws-path: /BEN
+- alterId: 1
+  cipher: auto
+  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  network: tcp
+  port: 10018
+  server: us1.np.qjnodeip.xyz
+  tls: false
+  type: vmess
+  uuid: b96e61d5-b7a1-4c3a-be22-59bd81e06b9e
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
   network: tcp
   port: 10016
   server: us1.np.qjnodeip.xyz
@@ -204,39 +130,27 @@ proxies:
   type: vmess
   uuid: 0a728900-68ae-4821-8dec-6d23421ebdbd
   ws-path: /
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  network: tcp
-  port: 10606
-  server: c39s5.jamjams.net
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-path: t.me/vpnpool
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  network: ws
-  port: 158
-  server: v2.ssrsub.com
-  tls: true
-  type: vmess
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  ws-path: /ssrsub
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_23'
-  network: ws
-  port: 158
-  server: v2.ssrsub.com
-  tls: true
-  type: vmess
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  ws-path: /ssrsub
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_13'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.63.11
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.196.147
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_15'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.63.82
+  type: ss
 - alterId: 1
   cipher: auto
-  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
+  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
   network: tcp
   port: 10016
   server: us1.np.qjnodeip.xyz
@@ -245,293 +159,256 @@ proxies:
   uuid: d7f9a821-74af-442a-a3db-aa3facc81560
   ws-path: /
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
+  name: '[10-12]|oslook|美国USUSA/Atlanta_17'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 167.88.63.99
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_18'
   password: FoOiGlkAA9yPEGP
   port: 7306
-  server: 134.195.198.250
+  server: 167.88.63.60
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|意大利ITItaly/Rome_19'
+  password: gYL83DQWXuDbxmZAVVtUTXaK
+  port: 46642
+  server: 82.102.26.93
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Ashburn_20'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.107.226.146
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Ashburn_21'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.107.226.146
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
+  port: 41676
+  server: 79.110.54.117
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|意大利ITItaly/Rome_23'
+  password: Kquv5UhvZXNMemAQy8DxZ7qn
+  port: 38620
+  server: 82.102.26.93
   type: ss
 - alterId: 1
   cipher: auto
-  name: '[10-12]|oslook|加拿大CACanada/Toronto_26'
+  name: '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
+  network: tcp
+  port: 10018
+  server: us1.np.qjnodeip.xyz
+  tls: false
+  type: vmess
+  uuid: 02c05e4c-3092-41e3-be4b-b49e9acbab21
+  ws-path: /
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.198.252
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_26'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 167.88.63.61
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Dallas_27'
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  port: 50168
+  server: 66.115.177.156
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Dallas_28'
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 66.115.177.136
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  port: 31572
+  server: 79.110.54.117
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/New+York_30'
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  server: 84.17.35.83
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 198.57.27.233
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.110
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_33'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 167.88.63.108
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '[10-12]|oslook|美国USUSA/Portland_34'
   network: ws
-  port: 9999
-  server: 206.253.164.137
+  port: 8888
+  server: 18.236.146.125
   tls: false
   type: vmess
   uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
   ws-headers:
     Host: t.me/vpnhat
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  network: ws
-  port: 158
-  server: v1.ssrsub.com
-  tls: true
-  type: vmess
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  ws-path: /ssrsub
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|加拿大CACanada/Toronto_28'
+  name: '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 49396
+  server: 89.249.73.197
+  type: ss
+- alterId: 16
+  cipher: auto
+  name: '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  network: ws
+  port: 80
+  server: 146.56.110.45
+  tls: false
+  type: vmess
+  uuid: d8992174-62c3-4eb0-f435-fc1c9ab0f8df
+  ws-headers:
+    Host: 146.56.110.45
+  ws-path: /BEN
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
   password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 198.57.27.241
+  port: 7306
+  server: 134.195.198.250
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  network: ws
-  port: 443
-  server: inap.qqnz.com.cn
-  tls: true
-  type: vmess
-  uuid: a8f3742c-4422-4943-9293-3ea618a846df
-  ws-path: /IJPCL0JG
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  password: YgusH2MWA8PWc3p2VDsR7AVv
-  port: 31764
-  server: 81.19.223.189
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.252
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 198.57.27.218
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_40'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 167.88.63.107
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_41'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|意大利ITItaly/Rome_42'
+  password: FaTG4zALZru72gxjgSHQ7Jdh
+  port: 42185
+  server: 82.102.26.93
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_43'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.154
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  network: tcp
-  port: 14013
-  server: azure-f4s-hk.transfer-xray.tk
-  tls: false
-  type: vmess
-  uuid: 55879313-29c5-11ec-bab9-fdbd4512f9c0
-  ws-path: /
-- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  port: 8443
-  server: t3.ssrsub.com
-  type: trojan
-- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  port: 8443
-  server: t7.ssrsub.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  network: ws
-  port: 158
-  server: v3.ssrsub.com
-  tls: true
-  type: vmess
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  ws-path: /ssrsub
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  network: tcp
-  port: 10606
-  server: c39s5.jamjams.net
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|加拿大CACanada/Waterloo_36'
+  name: '[10-12]|oslook|加拿大CACanada/Waterloo_44'
   network: ws
   port: 158
   server: v10.ssrsub.com
   tls: true
   type: vmess
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  ws-path: /ssrsub
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  network: ws
-  port: 80
-  server: sg2.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 965dac48-431d-499a-8cf0-d34640ff7987
-  ws-path: /index
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  port: 48938
-  server: 37.120.233.253
-  type: ss
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  network: tcp
-  port: 10606
-  server: 104.245.96.219
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-path: /
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  network: ws
-  port: 80
-  server: sg1.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 2d2a3011-8e42-4542-bdbd-fae085fe22e1
-  ws-path: /index
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  network: ws
-  port: 80
-  server: sg1.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: b96e61d5-b7a1-4c3a-be22-59bd81e06b9e
-  ws-path: /index
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 172.99.190.186
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.79
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|美国USUSA/Ashburn_44'
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.107.226.146
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  network: ws
-  port: 443
-  server: jp06.v2net.top
-  tls: true
-  type: vmess
-  uuid: E57BFBA2-F84E-EF29-256E-7DA69C66D2E1
-  ws-path: /ray
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  network: ws
-  port: 12222
-  server: 46.101.28.98
-  tls: false
-  type: vmess
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-  port: 49396
-  server: 89.249.73.197
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  network: ws
-  port: 158
-  server: v3.ssrsub.com
-  tls: true
-  type: vmess
   uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
   ws-path: /ssrsub
-- name: '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  port: 8443
-  server: t2.ssrsub.com
-  type: trojan
-- alterId: 10
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: c8191e5d-c551-4896-8d57-7493da874557
-  ws-path: /jjyun
-- alterId: 10
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f
-  ws-path: /jjyun
-- alterId: 10
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  ws-path: /jjyun
-- alterId: 8
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  network: tcp
-  port: 10606
-  server: c39s3.jamjams.net
-  tls: false
-  type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-path: /
-- alterId: 10
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
-  ws-path: /jjyun
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
+  name: '[10-12]|oslook|美国USUSA/Dallas_45'
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  port: 31944
+  server: 66.115.177.141
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.97
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Ashburn_47'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.107.226.241
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Ashburn_48'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.107.226.149
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_49'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 167.88.63.11
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_50'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.178
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Atlanta_53'
   password: FoOiGlkAA9yPEGP
   port: 7307
-  server: 172.99.190.35
+  server: 167.88.63.28
   type: ss
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  password: suucSeVLmt6PQKAP77NtGw9x
-  port: 49339
-  server: 89.238.130.227
+  name: '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 46.29.218.6
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[10-12]|oslook|美国USUSA/Ashburn_57'
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18331
-  server: 172.252.64.49
-  type: ss
-- alterId: 10
-  cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3
-  ws-path: /jjyun
 - alterId: 16
   cipher: auto
-  name: '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
+  name: '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
   network: ws
   port: 80
   server: 168.138.28.215
@@ -542,44 +419,47 @@ proxies:
     Host: 168.138.28.215
   ws-path: /BEN
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|美国USUSA/Ashburn_60'
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.107.226.146
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 193.118.60.171
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|挪威NONorway/Kristiansand_62'
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 46.29.218.6
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
+  name: '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
   password: faBAoD54k87UJG7
   port: 2375
-  server: 172.99.190.230
+  server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 172.99.190.246
-  type: ss
-- cipher: aes-256-gcm
-  name: '[10-12]|oslook|美国USUSA/Washington_65'
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_57'
   password: PCnnH6SQSnfoS27
   port: 8090
-  server: 38.39.192.74
+  server: 134.195.196.163
   type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.163
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Buffalo_59'
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  port: 31944
+  server: 64.44.42.60
+  type: ss
+- name: '[10-12]|oslook|美国USUSA/Miami_60'
+  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  port: 8443
+  server: t6.ssrsub.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[10-12]|oslook|美国USUSA/Miami_61'
+  network: ws
+  port: 158
+  server: v6.ssrsub.com
+  tls: true
+  type: vmess
+  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  ws-path: /ssrsub
 - alterId: 10
   cipher: auto
-  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
+  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   network: ws
   port: 88
   server: ukml.52jjyun.top
@@ -588,86 +468,105 @@ proxies:
   uuid: cb6273ad-5837-4c65-92e8-07daf9beb777
   ws-path: /jjyun
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|挪威NONorway/Kristiansand_67'
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
   password: faBAoD54k87UJG7
-  port: 2376
-  server: 46.29.218.6
+  port: 2375
+  server: 172.99.190.186
   type: ss
-- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  port: 8443
-  server: t4.ssrsub.com
-  type: trojan
-- alterId: 16
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  password: YgusH2MWA8PWc3p2VDsR7AVv
+  port: 31764
+  server: 81.19.223.189
+  type: ss
+- alterId: 10
   cipher: auto
-  name: '[10-12]|oslook|美国USUSA/San Jose_69'
+  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
   network: ws
-  port: 80
-  server: 150.230.43.190
+  port: 88
+  server: ukml.52jjyun.top
   tls: false
   type: vmess
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
-  ws-headers:
-    Host: 150.230.43.190
-  ws-path: /BEN
+  uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f
+  ws-path: /jjyun
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.230
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.79
+  type: ss
+- alterId: 10
+  cipher: auto
+  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  network: ws
+  port: 88
+  server: ukml.52jjyun.top
+  tls: false
+  type: vmess
+  uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3
+  ws-path: /jjyun
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 172.99.190.35
   type: ss
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 193.118.60.167
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  password: suucSeVLmt6PQKAP77NtGw9x
+  port: 49339
+  server: 89.238.130.227
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  network: ws
-  port: 443
-  server: 1.1.1.9
-  tls: true
-  type: vmess
-  uuid: 80dbead7-ddee-4b87-bd9d-5d96c992cf20
-  ws-headers:
-    Host: ccc.1808.cf
-  ws-path: /v2rayvws?ed=2048
-- alterId: 16
-  cipher: auto
-  name: '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  network: ws
-  port: 80
-  server: 168.138.21.40
-  tls: false
-  type: vmess
-  uuid: 2cfb7036-2676-4768-9a8e-70364b503750
-  ws-headers:
-    Host: 168.138.21.40
-  ws-path: /BEN
-- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+- name: '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
   port: 8443
   server: t3.ssrsub.com
   type: trojan
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|美国USUSA/Dallas_72'
+  password: J9Y2ncrdPEC38gwydNFFGBna
+  port: 35294
+  server: 66.115.177.143
+  type: ss
+- alterId: 10
+  cipher: auto
+  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  network: ws
+  port: 88
+  server: ukml.52jjyun.top
+  tls: false
+  type: vmess
+  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
+  ws-path: /jjyun
 - alterId: 1
   cipher: auto
-  name: '[10-12]|oslook|美国USUSA/San Jose_75'
+  name: '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
   network: ws
-  port: 8443
-  server: us01.uuv2.uk
-  tls: true
+  port: 12222
+  server: 46.101.28.98
+  tls: false
   type: vmess
-  uuid: 5a26a86c-4247-4186-a5d6-f4a7e02dd18b
+  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
   ws-headers:
-    Host: us01.uuv2.uk
+    Host: t.me/vpnhat
   ws-path: /
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|波兰PLPoland/Warsaw_76'
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
+  name: '[10-12]|oslook|美国USUSA/Houston_75'
+  password: wrCaGtrUbzeRqQLdc8Kmk3Nd
+  port: 49126
+  server: 199.10.64.243
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 172.99.190.246
   type: ss
 - cipher: aes-256-gcm
   name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
@@ -675,231 +574,257 @@ proxies:
   port: 8091
   server: 193.118.60.165
   type: ss
-- alterId: 1
-  cipher: auto
-  name: '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  network: ws
-  port: 443
-  server: kr01.uuv2.uk
-  tls: true
-  type: vmess
-  uuid: 5a26a86c-4247-4186-a5d6-f4a7e02dd18b
-  ws-headers:
-    Host: kr01.uuv2.uk
-  ws-path: /
-- alterId: 60
-  cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  network: ws
-  port: 443
-  server: nn-ssr24.feiclouddd.me
-  tls: true
-  type: vmess
-  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
-  ws-headers:
-    Host: nn-ssr24.feiclouddd.me
-  ws-path: /dsafasdf
 - cipher: aes-256-gcm
-  name: '[10-12]|oslook|加拿大CACanada/Montreal_80'
+  name: '[10-12]|oslook|美国USUSA/Washington_78'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.39.192.74
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 172.107.233.234
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 193.118.60.171
+  type: ss
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 51.77.53.200
+  type: ss
+- name: '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  port: 8443
+  server: t10.ssrsub.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|加拿大CACanada/Montreal_83'
   password: x23Z4LGkGDkThZ9Kaz4DURQp
   port: 40093
   server: 146.70.27.12
   type: ss
-- name: '[10-12]|oslook|美国USUSA/Las+Vegas_81'
+- name: '[10-12]|oslook|加拿大CACanada/Waterloo_84'
   password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
   port: 8443
-  server: t1.ssrsub.com
+  server: t10.ssrsub.com
   type: trojan
-- alterId: 8
+- alterId: 64
   cipher: auto
-  name: '[10-12]|oslook|美国USUSA/Fremont_82'
+  name: '[10-12]|oslook|美国USUSA/San Jose_85'
   network: tcp
-  port: 10606
-  server: c39s801.jamjams.net
+  port: 58719
+  server: 192.74.254.112
   tls: false
   type: vmess
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  ws-path: t.me/vpnpool
-- name: '[10-12]|oslook|美国USUSA/Los+Angeles_83'
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  port: 8443
-  server: t2.ssrsub.com
-  type: trojan
+  uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7
+  ws-path: /
+- alterId: 16
+  cipher: auto
+  name: '[10-12]|oslook|美国USUSA/San Jose_86'
+  network: ws
+  port: 80
+  server: 150.230.45.118
+  tls: false
+  type: vmess
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  ws-headers:
+    Host: 150.230.45.118
+  ws-path: /BEN
+- cipher: aes-256-gcm
+  name: '[10-12]|oslook|挪威NONorway/Kristiansand_87'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 46.29.218.6
+  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -908,352 +833,368 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1261,88 +1202,92 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1359,88 +1304,92 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - '[10-12]|oslook|日本JPJapan/Tokyo_1'
-  - '[10-12]|oslook|日本JPJapan/Osaka_2'
-  - '[10-12]|oslook|日本JPJapan/Osaka_3'
-  - '[10-12]|oslook|日本JPJapan/Osaka_4'
-  - '[10-12]|oslook|日本JPJapan/Osaka_5'
-  - '[10-12]|oslook|日本JPJapan/Osaka_6'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_7'
-  - '[10-12]|oslook|韩国KRKorea/Incheon_8'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[10-12]|oslook|美国USUSA/San Francisco_10'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_11'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_12'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_13'
-  - '[10-12]|oslook|日本JPJapan/Osaka_14'
-  - '[10-12]|oslook|日本JPJapan/Osaka_15'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_16'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_17'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_18'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_19'
-  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_20'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_21'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_22'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_23'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_2'
+  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_3'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_4'
+  - '[10-12]|oslook|美国USUSA/San Jose_5'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_6'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_7'
+  - '[10-12]|oslook|美国USUSA/Los Angeles_8'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_9'
+  - '[10-12]|oslook|美国USUSA/San Jose_10'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_11'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_12'
+  - '[10-12]|oslook|美国USUSA/Atlanta_13'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_14'
+  - '[10-12]|oslook|美国USUSA/Atlanta_15'
+  - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_16'
+  - '[10-12]|oslook|美国USUSA/Atlanta_17'
+  - '[10-12]|oslook|美国USUSA/Atlanta_18'
+  - '[10-12]|oslook|意大利ITItaly/Rome_19'
+  - '[10-12]|oslook|美国USUSA/Ashburn_20'
+  - '[10-12]|oslook|美国USUSA/Ashburn_21'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_22'
+  - '[10-12]|oslook|意大利ITItaly/Rome_23'
   - '[10-12]|oslook|中国香港/中国台湾CNChina/Changning/可能是中转节点_24'
   - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_25'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_26'
-  - '[10-12]|oslook|美国USUSA/Las Vegas_27'
-  - '[10-12]|oslook|加拿大CACanada/Toronto_28'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_29'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_30'
-  - '[10-12]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_31'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_32'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_33'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_34'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_35'
-  - '[10-12]|oslook|加拿大CACanada/Waterloo_36'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_37'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Manchester_38'
-  - '[10-12]|oslook|荷兰NLNetherlands/Amsterdam_39'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_40'
-  - '[10-12]|oslook|新加坡SGSingapore/Singapore_41'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_42'
+  - '[10-12]|oslook|美国USUSA/Atlanta_26'
+  - '[10-12]|oslook|美国USUSA/Dallas_27'
+  - '[10-12]|oslook|美国USUSA/Dallas_28'
+  - '[10-12]|oslook|美国USUSA/Las+Vegas_29'
+  - '[10-12]|oslook|美国USUSA/New+York_30'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_31'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_32'
+  - '[10-12]|oslook|美国USUSA/Atlanta_33'
+  - '[10-12]|oslook|美国USUSA/Portland_34'
+  - '[10-12]|oslook|比利时BEBelgium/Zaventem_35'
+  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_36'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_37'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_38'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_39'
+  - '[10-12]|oslook|美国USUSA/Atlanta_40'
+  - '[10-12]|oslook|美国USUSA/Atlanta_41'
+  - '[10-12]|oslook|意大利ITItaly/Rome_42'
   - '[10-12]|oslook|加拿大CACanada/Toronto_43'
-  - '[10-12]|oslook|美国USUSA/Ashburn_44'
-  - '[10-12]|oslook|日本JPJapan/Tokyo_45'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_46'
-  - '[10-12]|oslook|比利时BEBelgium/Zaventem_47'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_48'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_49'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_50'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_51'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_52'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_53'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_54'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_55'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_56'
-  - '[10-12]|oslook|美国USUSA/Ashburn_57'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_58'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_59'
-  - '[10-12]|oslook|美国USUSA/Ashburn_60'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_61'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_62'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_44'
+  - '[10-12]|oslook|美国USUSA/Dallas_45'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_46'
+  - '[10-12]|oslook|美国USUSA/Ashburn_47'
+  - '[10-12]|oslook|美国USUSA/Ashburn_48'
+  - '[10-12]|oslook|美国USUSA/Atlanta_49'
+  - '[10-12]|oslook|美国USUSA/Atlanta_50'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_51'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_52'
+  - '[10-12]|oslook|美国USUSA/Atlanta_53'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_54'
+  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_55'
+  - '[10-12]|oslook|加拿大CACanada/Richmond+Hill_56'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_57'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_58'
+  - '[10-12]|oslook|美国USUSA/Buffalo_59'
+  - '[10-12]|oslook|美国USUSA/Miami_60'
+  - '[10-12]|oslook|美国USUSA/Miami_61'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_62'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_63'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_64'
-  - '[10-12]|oslook|美国USUSA/Washington_65'
-  - '[10-12]|oslook|英国GBUnited Kiongdom/London_66'
-  - '[10-12]|oslook|挪威NONorway/Kristiansand_67'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_68'
-  - '[10-12]|oslook|美国USUSA/San Jose_69'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_70'
-  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_71'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Canberra_72'
-  - '[10-12]|oslook|澳大利亚AUAustralia/Melbourne_73'
-  - '[10-12]|oslook|俄罗斯RURussia/Moscow_74'
-  - '[10-12]|oslook|美国USUSA/San Jose_75'
-  - '[10-12]|oslook|波兰PLPoland/Warsaw_76'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Ipswich_64'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_65'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_66'
+  - '[10-12]|oslook|加拿大CACanada/Toronto_67'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_68'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/Stretford_70'
+  - '[10-12]|oslook|俄罗斯RURussia/Moscow_71'
+  - '[10-12]|oslook|美国USUSA/Dallas_72'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_73'
+  - '[10-12]|oslook|英国GBUnited Kiongdom/London_74'
+  - '[10-12]|oslook|美国USUSA/Houston_75'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_76'
   - '[10-12]|oslook|英国GBUnited+Kiongdom/London_77'
-  - '[10-12]|oslook|韩国KRKorea/Chuncheon-si_78'
-  - '[10-12]|oslook|美国USUSA/Los Angeles_79'
-  - '[10-12]|oslook|加拿大CACanada/Montreal_80'
-  - '[10-12]|oslook|美国USUSA/Las+Vegas_81'
-  - '[10-12]|oslook|美国USUSA/Fremont_82'
-  - '[10-12]|oslook|美国USUSA/Los+Angeles_83'
+  - '[10-12]|oslook|美国USUSA/Washington_78'
+  - '[10-12]|oslook|西班牙ESSpain/Barcelona_79'
+  - '[10-12]|oslook|英国GBUnited+Kiongdom/London_80'
+  - '[10-12]|oslook|波兰PLPoland/Warsaw_81'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_82'
+  - '[10-12]|oslook|加拿大CACanada/Montreal_83'
+  - '[10-12]|oslook|加拿大CACanada/Waterloo_84'
+  - '[10-12]|oslook|美国USUSA/San Jose_85'
+  - '[10-12]|oslook|美国USUSA/San Jose_86'
+  - '[10-12]|oslook|挪威NONorway/Kristiansand_87'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
