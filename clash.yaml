@@ -1,5 +1,5 @@
 allow-lan: true
-external-controller: 0.0.0.0:9090
+external-controller: 0.0.0.0:9090  
 log-level: info
 mode: Rule
 port: 7890
